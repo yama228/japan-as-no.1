@@ -1181,7 +1181,6 @@
                 "name": "Improved Asteroid Mining",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Future Tech",
                     "Improved Singularity"
                 ],
                 "uniques": [
@@ -1194,7 +1193,6 @@
                 "name": "Improved Quantum Computing",
                 "row": 18,
                 "prerequisites": [
-                    "Improved Future Tech",
                     "Improved Hyperdrive",
                     "Improved Asteroid Mining"
                 ],
@@ -1230,7 +1228,7 @@
     },
     {
         "columnNumber": 18,
-        "era": "Japanese era",
+        "era": "Future era",
         "techCost": 12000,
         "buildingCost": 1000,
         "wonderCost": 1500,
