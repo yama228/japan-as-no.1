@@ -25,6 +25,13 @@
         "wonderCost": 185,
         "techs": [
             {
+				"name": "Improved Pottery",
+				"row": 2,
+				"prerequisites": ["Only japanese techs"],
+                "uniques":["[+1 Food] from [Farm] tiles [in this city]"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+            {
                 "name": "Improved Animal Husbandry",
                 "row": 15,
                 "prerequisites": [
@@ -73,7 +80,7 @@
                 "name": "Improved Sailing",
                 "row": 11,
                 "prerequisites": [
-                    "Pottery"
+                    "Improved Pottery"
                 ],
                 "uniques": [
                     "[+2 Gold] from [Coast] tiles [in this city]",
@@ -85,7 +92,7 @@
                 "name": "Improved Calendar",
                 "row": 12,
                 "prerequisites": [
-                    "Pottery"
+                    "Improved Pottery"
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions"
@@ -96,7 +103,7 @@
                 "name": "Improved Writing",
                 "row": 13,
                 "prerequisites": [
-                    "Pottery"
+                    "Improved Pottery"
                 ],
                 "uniques": [
                     "[+2 Science]"
@@ -1105,7 +1112,7 @@
 
             {                
             "name": "Future Singularity",
-            "row": 2,
+            "row": 3,
             "prerequisites": [
             "Future Tech"                
             ],                
@@ -1117,7 +1124,7 @@
             },            
             {        
             "name": "Future Hyperdrive",                
-            "row": 8,                
+            "row": 5,                
             "prerequisites": [                    
                 "Future Tech"                
             ],                
@@ -1129,7 +1136,7 @@
             },
             {
                 "name": "Future Asteroid Mining",
-                "row": 16,
+                "row": 7,
                 "prerequisites": [
                     "Future Tech"
                 ],
@@ -1153,7 +1160,8 @@
                 "row": 5,
                 "prerequisites": [
                     "Future Hyperdrive",
-                    "Future Asteroid Mining"
+                    "Future Asteroid Mining",
+                    "Future Singularity"
                 ],
                 "uniques": [
                     "Reveals the entire map",
