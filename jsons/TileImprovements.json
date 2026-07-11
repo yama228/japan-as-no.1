@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Harbor Development",
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean"
+        ],
+        "turnsToBuild": 8,
+        "techRequired": "Optics",
+        "uniques": [
+            "[+1 Food] from tiles with this improvement",
+            "[+1 Production] from tiles with this improvement",
+            "[+2 Gold] from tiles with this improvement"
+        ],
+
+        "civilopediaText": "A developed harbor area that improves coastal economic activity."
+    },
+    {
+        "name": "Industrial Harbor",
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean"
+        ],
+        "turnsToBuild": 10,
+        "techRequired": "Industrialization",
+        "uniques": [
+            "[+2 Food] from tiles with this improvement",
+            "[+2 Production] from tiles with this improvement",
+            "[+3 Gold] from tiles with this improvement"
+        ],
+
+        "civilopediaText": "An advanced harbor area that significantly boosts coastal economic activity."
+    }
+]
