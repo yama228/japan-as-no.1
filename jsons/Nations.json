@@ -24,7 +24,8 @@
             "[+3 Culture] per [4] population [in all cities]",
             "[+60]% [Science] [in all cities]",
             "[+1 Science] from every [Factory]",
-            "[+1 Food] per [2] population [in all cities]"
+            "[+1 Food] per [2] population [in all cities]",
+            "Starts with [Japanese Foundation]"
         ],
         "cities": [
             "Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
