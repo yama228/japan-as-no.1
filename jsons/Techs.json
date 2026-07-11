@@ -8,10 +8,12 @@
         "techs": [
             {
                 "name": "Only japanese techs",
-				"cost": 9999999,
-				"row": 1,
+                "cost": 9999999,
+                "row": 1,
                 "quote": "The Japanese are a people of great ingenuity and skill, and their technological advancements have been a driving force in their history.",
-                "uniques": []
+                "uniques": [
+                    "[+100]% weight to this choice for AI decisions"
+                ]
             }
         ]
     },
@@ -30,7 +32,7 @@
                     "Only japanese techs"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+2 Food] from [Pasture] tiles [in this city]"
                 ],
                 "quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
             },
@@ -55,8 +57,7 @@
                     "Only japanese techs"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions",
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+2 Production] from [Mine] tiles [in this city]"
                 ],
                 "quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
             }
@@ -76,8 +77,8 @@
                     "Pottery"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions",
-                    "Enables [Embarked] units to enter ocean tiles"
+                    "[+1 Gold] from [Coast] tiles [in this city]",
+                    "[+1] Movement <for [Embarked] units>"
                 ],
                 "quote": "'He who commands the sea has command of everything.' - Themistocles"
             },
@@ -99,8 +100,7 @@
                     "Pottery"
                 ],
                 "uniques": [
-                    "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+1 Science]"
                 ],
                 "quote": "'He who destroys a good book kills reason itself.' - John Milton"
             },
@@ -111,7 +111,8 @@
                     "Improved Animal Husbandry"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
             },
@@ -123,7 +124,8 @@
                     "Improved Archery"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
             },
@@ -135,7 +137,7 @@
                 ],
                 "quote": "'How happy are those whose walls already rise!' - Virgil",
                 "uniques": [
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1 Production]"
                 ]
             },
             {
@@ -145,7 +147,8 @@
                     "Improved Mining"
                 ],
                 "uniques": [
-                    "[+50]% weight to this choice for AI decisions"
+                    "[+50]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
             }
@@ -166,7 +169,8 @@
                     "Improved Sailing"
                 ],
                 "uniques": [
-                    "Enables embarkation for land units"
+                    "Enables embarkation for land units",
+                    "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
             },
@@ -190,7 +194,10 @@
                     "Improved The Wheel"
                 ],
                 "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon",
-                "uniques": []
+                "uniques": [
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+1] Movement <for [Embarked] units>"
+                ]
             },
             {
                 "name": "Improved Construction",
@@ -201,7 +208,8 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
             }
@@ -223,7 +231,8 @@
                 ],
                 "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ]
             },
             {
@@ -234,7 +243,8 @@
                 ],
                 "quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Open Borders agreements <Civilopedia link [Tutorials/Open Borders]>"
                 ]
             },
             {
@@ -245,7 +255,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"
                 ],
                 "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
             },
@@ -270,7 +280,8 @@
                     "Improved Bronze Working"
                 ],
                 "uniques": [
-                    "[-50]% weight to this choice for AI decisions"
+                    "[-50]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
             }
@@ -292,7 +303,8 @@
                 ],
                 "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Defensive Pacts <Civilopedia link [Tutorials/Defensive Pacts]>"
                 ]
             },
             {
@@ -305,7 +317,6 @@
                 ],
                 "uniques": [
                     "Enables Open Borders agreements <Civilopedia link [Tutorials/Open Borders]>",
-                    "[+100]% weight to this choice for AI decisions",
                     "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
@@ -317,7 +328,8 @@
                     "Improved Currency"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ],
                 "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
             },
@@ -329,7 +341,8 @@
                     "Improved Iron Working"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
             }
@@ -365,9 +378,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>",
-                    "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ],
                 "quote": "'Education is the best provision for old age.' - Aristotle"
             },
@@ -380,7 +391,8 @@
                 ],
                 "uniques": [
                     "Enables Defensive Pacts <Civilopedia link [Tutorials/Defensive Pacts]>",
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
             },
@@ -392,7 +404,9 @@
                     "Improved Engineering"
                 ],
                 "uniques": [
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+100]% weight to this choice for AI decisions",
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
             },
@@ -404,7 +418,7 @@
                 ],
                 "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+1 Science]"
                 ]
             },
             {
@@ -449,7 +463,8 @@
                     "Improved Education"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Open Borders agreements <Civilopedia link [Tutorials/Open Borders]>"
                 ],
                 "quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
             },
@@ -462,7 +477,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"
                 ],
                 "quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
             },
@@ -476,7 +491,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ],
                 "quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
             },
@@ -510,7 +525,8 @@
                 ],
                 "quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon",
                 "uniques": [
-                    "Enables [Embarked] units to enter ocean tiles"
+                    "Enables [Embarked] units to enter ocean tiles",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -522,7 +538,9 @@
                 ],
                 "quote": "'Architecture begins where engineering ends.' - Walter Gropius",
                 "uniques": [
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+100]% weight to this choice for AI decisions",
+                    "Improves movement speed on roads"
                 ]
             },
             {
@@ -534,7 +552,8 @@
                 ],
                 "uniques": [
                     "[+50]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ],
                 "quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
             },
@@ -547,7 +566,8 @@
                 ],
                 "uniques": [
                     "[-50]% weight to this choice for AI decisions",
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
             },
@@ -581,7 +601,8 @@
                 ],
                 "uniques": [
                     "[+50]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"
                 ],
                 "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
             },
@@ -594,7 +615,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ],
                 "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
             },
@@ -606,7 +627,8 @@
                 ],
                 "uniques": [
                     "[+50]% weight to this choice for AI decisions",
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
             },
@@ -632,7 +654,8 @@
                 ],
                 "quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -665,7 +688,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+1] Movement <for [Embarked] units>"
                 ],
                 "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
             },
@@ -677,7 +700,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
             },
@@ -704,7 +727,8 @@
                 ],
                 "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             }
         ]
@@ -737,7 +761,7 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
             },
@@ -762,7 +786,8 @@
                 ],
                 "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -774,7 +799,8 @@
                 ],
                 "uniques": [
                     "[+100]% weight to this choice for AI decisions",
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "Improves movement speed on roads"
                 ],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
             }
@@ -809,7 +835,8 @@
                 ],
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins",
                 "uniques": [
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -820,7 +847,8 @@
                 ],
                 "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -831,7 +859,8 @@
                 ],
                 "uniques": [
                     "[-50]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+1] Movement <for [Embarked] units>"
                 ],
                 "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             }
@@ -853,7 +882,8 @@
                 ],
                 "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"
                 ]
             },
             {
@@ -864,7 +894,6 @@
                     "Improved Electronics"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions",
                     "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
@@ -877,7 +906,8 @@
                     "Improved Electronics"
                 ],
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
             },
@@ -890,7 +920,8 @@
                 ],
                 "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             }
         ]
@@ -911,7 +942,8 @@
                 ],
                 "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Reveals the entire map"
                 ]
             },
             {
@@ -923,7 +955,8 @@
                 ],
                 "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ]
             },
             {
@@ -947,7 +980,8 @@
                 ],
                 "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Improves movement speed on roads"
                 ]
             }
         ]
@@ -967,7 +1001,8 @@
                 ],
                 "quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Reveals the entire map"
                 ]
             },
             {
@@ -979,7 +1014,8 @@
                 ],
                 "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ]
             },
             {
@@ -991,7 +1027,8 @@
                 ],
                 "quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr.",
                 "uniques": [
-                    "[+20]% Strength <for [Archer] units>"
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -1016,7 +1053,8 @@
                 ],
                 "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov",
                 "uniques": [
-                    "[+1] Movement <for [Embarked] units>"
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+100]% weight to this choice for AI decisions"
                 ]
             },
             {
@@ -1048,7 +1086,8 @@
                 ],
                 "uniques": [
                     "[-100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"
                 ],
                 "quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
             },
@@ -1075,7 +1114,8 @@
                 ],
                 "uniques": [
                     "[-100]% weight to this choice for AI decisions",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+20]% Strength <for [Archer] units>"
                 ],
                 "quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
             },
@@ -1087,7 +1127,8 @@
                 ],
                 "quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz",
                 "uniques": [
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "[+1] Movement <for [Embarked] units>"
                 ]
             },
             {
@@ -1113,6 +1154,57 @@
         "wonderCost": 1250,
         "techs": [
             {
+                "name": "Improved Singularity",
+                "row": 11,
+                "prerequisites": [
+                    "Improved Future Tech"
+                ],
+                "uniques": [
+                    "Can be continually researched",
+                    "[+100]% weight to this choice for AI decisions"
+                ],
+                "quote": "The singularity is not the end of history, but the beginning of a new one."
+            },
+            {
+                "name": "Improved Hyperdrive",
+                "row": 13,
+                "prerequisites": [
+                    "Improved Future Tech"
+                ],
+                "uniques": [
+                    "Enables [Embarked] units to enter ocean tiles",
+                    "[+100]% weight to this choice for AI decisions"
+                ],
+                "quote": "A starship is a ship that sails the sea of space."
+            },
+            {
+                "name": "Improved Asteroid Mining",
+                "row": 16,
+                "prerequisites": [
+                    "Improved Future Tech",
+                    "Improved Singularity"
+                ],
+                "uniques": [
+                    "[+20]% Strength <for [Archer] units>",
+                    "[+100]% weight to this choice for AI decisions"
+                ],
+                "quote": "The wealth of worlds lies in the ruins of the old."
+            },
+            {
+                "name": "Improved Quantum Computing",
+                "row": 18,
+                "prerequisites": [
+                    "Improved Future Tech",
+                    "Improved Hyperdrive",
+                    "Improved Asteroid Mining"
+                ],
+                "uniques": [
+                    "Reveals the entire map",
+                    "[+100]% weight to this choice for AI decisions"
+                ],
+                "quote": "Quantum computation turns possibility into reality."
+            },
+            {
                 "name": "Improved Future Tech",
                 "row": 15,
                 "prerequisites": [
@@ -1124,7 +1216,8 @@
                 ],
                 "uniques": [
                     "Can be continually researched",
-                    "[+100]% weight to this choice for AI decisions"
+                    "[+100]% weight to this choice for AI decisions",
+                    "Reveals the entire map"
                 ],
                 "quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [
@@ -1132,6 +1225,148 @@
                         "text": "Who knows what the future holds?"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "columnNumber": 18,
+        "era": "Japanese era",
+        "techCost": 12000,
+        "buildingCost": 1000,
+        "wonderCost": 1500,
+        "techs": [
+            {
+                "name": "Animal Husbandry",
+                "row": 11,
+                "prerequisites": [
+                    "Agriculture"
+                ],
+                "uniques": [
+                    "[+1 Food] from [Pasture] tiles [in this city]"
+                ],
+                "quote": "A life of craft begins with tending the herd and the field."
+            },
+            {
+                "name": "Improved Animal Husbandry",
+                "row": 12,
+                "prerequisites": [
+                    "Animal Husbandry"
+                ],
+                "uniques": [
+                    "[+2 Food] from [Pasture] tiles [in this city]"
+                ],
+                "quote": "The improved husbandry turns pasture into abundance."
+            },
+            {
+                "name": "Mining",
+                "row": 13,
+                "prerequisites": [
+                    "Agriculture"
+                ],
+                "uniques": [
+                    "[+1 Production] from [Mine] tiles [in this city]"
+                ],
+                "quote": "A mountain yields its store to patient hands."
+            },
+            {
+                "name": "Improved Mining",
+                "row": 14,
+                "prerequisites": [
+                    "Mining"
+                ],
+                "uniques": [
+                    "[+2 Production] from [Mine] tiles [in this city]"
+                ],
+                "quote": "Improved mining turns every seam into strength."
+            },
+            {
+                "name": "Sailing",
+                "row": 15,
+                "prerequisites": [
+                    "Pottery"
+                ],
+                "uniques": [
+                    "[+1 Gold] from [Coast] tiles [in this city]"
+                ],
+                "quote": "The sea invites those who learn to read its currents."
+            },
+            {
+                "name": "Improved Sailing",
+                "row": 16,
+                "prerequisites": [
+                    "Sailing"
+                ],
+                "uniques": [
+                    "[+2 Gold] from [Coast] tiles [in this city]",
+                    "[+1] Movement <for [Embarked] units>"
+                ],
+                "quote": "The improved sail brings speed, wealth, and reach."
+            },
+            {
+                "name": "Writing",
+                "row": 17,
+                "prerequisites": [
+                    "Pottery"
+                ],
+                "uniques": [
+                    "[+1 Science]"
+                ],
+                "quote": "Knowledge ripens when it can be shared."
+            },
+            {
+                "name": "Improved Writing",
+                "row": 18,
+                "prerequisites": [
+                    "Writing"
+                ],
+                "uniques": [
+                    "[+2 Science]"
+                ],
+                "quote": "The improved script becomes a new engine of thought."
+            },
+            {
+                "name": "Masonry",
+                "row": 19,
+                "prerequisites": [
+                    "Mining"
+                ],
+                "uniques": [
+                    "[+1 Production]"
+                ],
+                "quote": "Stone and labor together give shape to shelter."
+            },
+            {
+                "name": "Improved Masonry",
+                "row": 20,
+                "prerequisites": [
+                    "Masonry"
+                ],
+                "uniques": [
+                    "[+2 Production]"
+                ],
+                "quote": "The improved craft makes every wall more enduring."
+            },
+            {
+                "name": "Physics",
+                "row": 21,
+                "prerequisites": [
+                    "Writing"
+                ],
+                "uniques": [
+                    "[+1 Science]"
+                ],
+                "quote": "The study of nature opens hidden order."
+            },
+            {
+                "name": "Improved Physics",
+                "row": 22,
+                "prerequisites": [
+                    "Physics"
+                ],
+                "uniques": [
+                    "[+2 Science]"
+                ],
+                "quote": "Improved physics turns observation into mastery."
             }
         ]
     }
