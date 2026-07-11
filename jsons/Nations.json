@@ -1,6 +1,6 @@
 [
     {
-        "name": "Japan",
+        "name": "Japan of empire",
         "leaderName": "Zinmu",
         "adjective": ["Japanese"],
         "startBias": ["Coast"],
@@ -21,7 +21,7 @@
             "No damage penalty for wounded units <for [All] units>",
             "[+1 Production] from every [Mine]",
             "[+3 Culture] per [4] population [in all cities]",
-            "[+15]% Science when the empire is Happy",
+            "[+60]% [Science] [in all cities]",
             "[+1 Science] from every [Factory]",
             "[+1 Food] per [2] population [in all cities]"
         ],
