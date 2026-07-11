@@ -26,7 +26,7 @@
         "techs": [
             {
 				"name": "Improved Pottery",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["Only japanese techs"],
                 "uniques":["[+1 Food] from [Farm] tiles [in this city]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
