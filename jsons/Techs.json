@@ -23,7 +23,7 @@
         "techs": [
             {
                 "name": "Improved Animal Husbandry",
-                "row": 1,
+                "row": 15,
                 "prerequisites": [
                     "Agriculture",
                     "Only japanese techs"
@@ -35,7 +35,7 @@
             },
             {
                 "name": "Improved Archery",
-                "row": 3,
+                "row": 17,
                 "prerequisites": [
                     "Agriculture",
                     "Only japanese techs"
@@ -48,7 +48,7 @@
             },
             {
                 "name": "Improved Mining",
-                "row": 5,
+                "row": 19,
                 "prerequisites": [
                     "Agriculture",
                     "Only japanese techs"
@@ -70,7 +70,7 @@
         "techs": [
             {
                 "name": "Improved Sailing",
-                "row": 1,
+                "row": 11,
                 "prerequisites": [
                     "Pottery"
                 ],
@@ -82,7 +82,7 @@
             },
             {
                 "name": "Improved Calendar",
-                "row": 3,
+                "row": 12,
                 "prerequisites": [
                     "Pottery"
                 ],
@@ -93,7 +93,7 @@
             },
             {
                 "name": "Improved Writing",
-                "row": 5,
+                "row": 13,
                 "prerequisites": [
                     "Pottery"
                 ],
@@ -105,7 +105,7 @@
             },
             {
                 "name": "Improved Trapping",
-                "row": 7,
+                "row": 15,
                 "prerequisites": [
                     "Improved Animal Husbandry"
                 ],
@@ -116,7 +116,7 @@
             },
             {
                 "name": "Improved The Wheel",
-                "row": 9,
+                "row": 17,
                 "prerequisites": [
                     "Improved Animal Husbandry",
                     "Improved Archery"
@@ -128,7 +128,7 @@
             },
             {
                 "name": "Improved Masonry",
-                "row": 11,
+                "row": 19,
                 "prerequisites": [
                     "Improved Mining"
                 ],
@@ -139,7 +139,7 @@
             },
             {
                 "name": "Improved Bronze Working",
-                "row": 13,
+                "row": 20,
                 "prerequisites": [
                     "Improved Mining"
                 ],
@@ -160,7 +160,7 @@
             {
                 "name": "Improved Optics",
                 "cost": 85,
-                "row": 1,
+                "row": 11,
                 "prerequisites": [
                     "Improved Sailing"
                 ],
@@ -171,7 +171,7 @@
             },
             {
                 "name": "Improved Horseback Riding",
-                "row": 3,
+                "row": 15,
                 "prerequisites": [
                     "Improved Trapping",
                     "Improved The Wheel"
@@ -184,7 +184,7 @@
             },
             {
                 "name": "Improved Mathematics",
-                "row": 5,
+                "row": 17,
                 "prerequisites": [
                     "Improved The Wheel"
                 ],
@@ -193,7 +193,7 @@
             },
             {
                 "name": "Improved Construction",
-                "row": 7,
+                "row": 19,
                 "prerequisites": [
                     "Improved Masonry",
                     "Improved The Wheel"
@@ -215,7 +215,7 @@
         "techs": [
             {
                 "name": "Improved Philosophy",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Writing",
                     "Improved Calendar"
@@ -227,7 +227,7 @@
             },
             {
                 "name": "Improved Drama and Poetry",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Writing"
                 ],
@@ -238,7 +238,7 @@
             },
             {
                 "name": "Improved Currency",
-                "row": 5,
+                "row": 17,
                 "prerequisites": [
                     "Improved Mathematics"
                 ],
@@ -250,7 +250,7 @@
             },
             {
                 "name": "Improved Engineering",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Mathematics",
                     "Improved Construction"
@@ -264,7 +264,7 @@
             },
             {
                 "name": "Improved Iron Working",
-                "row": 9,
+                "row": 20,
                 "prerequisites": [
                     "Improved Bronze Working"
                 ],
@@ -284,7 +284,7 @@
         "techs": [
             {
                 "name": "Improved Theology",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Philosophy",
                     "Improved Drama and Poetry"
@@ -296,7 +296,7 @@
             },
             {
                 "name": "Improved Civil Service",
-                "row": 3,
+                "row": 15,
                 "prerequisites": [
                     "Improved Currency",
                     "Improved Horseback Riding",
@@ -311,7 +311,7 @@
             },
             {
                 "name": "Improved Guilds",
-                "row": 5,
+                "row": 17,
                 "prerequisites": [
                     "Improved Currency"
                 ],
@@ -322,7 +322,7 @@
             },
             {
                 "name": "Improved Metal Casting",
-                "row": 7,
+                "row": 19,
                 "prerequisites": [
                     "Improved Engineering",
                     "Improved Iron Working"
@@ -344,7 +344,7 @@
             {
                 "name": "Improved Compass",
                 "cost": 375,
-                "row": 1,
+                "row": 11,
                 "prerequisites": [
                     "Improved Optics",
                     "Improved Theology"
@@ -357,7 +357,7 @@
             },
             {
                 "name": "Improved Education",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Theology",
                     "Improved Civil Service"
@@ -372,7 +372,7 @@
             },
             {
                 "name": "Improved Chivalry",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Civil Service",
                     "Improved Guilds"
@@ -385,7 +385,7 @@
             },
             {
                 "name": "Improved Machinery",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Guilds",
                     "Improved Engineering"
@@ -397,7 +397,7 @@
             },
             {
                 "name": "Improved Physics",
-                "row": 9,
+                "row": 19,
                 "prerequisites": [
                     "Improved Metal Casting"
                 ],
@@ -408,7 +408,7 @@
             },
             {
                 "name": "Improved Steel",
-                "row": 11,
+                "row": 20,
                 "prerequisites": [
                     "Improved Metal Casting"
                 ],
@@ -429,7 +429,7 @@
         "techs": [
             {
                 "name": "Improved Astronomy",
-                "row": 1,
+                "row": 12,
                 "uniques": [
                     "[+1] Movement <for [Embarked] units>",
                     "Enables [Embarked] units to enter ocean tiles",
@@ -443,7 +443,7 @@
             },
             {
                 "name": "Improved Acoustics",
-                "row": 3,
+                "row": 14,
                 "prerequisites": [
                     "Improved Education"
                 ],
@@ -454,7 +454,7 @@
             },
             {
                 "name": "Improved Banking",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Chivalry",
                     "Improved Education"
@@ -467,7 +467,7 @@
             },
             {
                 "name": "Improved Printing Press",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Machinery",
                     "Improved Physics",
@@ -481,7 +481,7 @@
             },
             {
                 "name": "Improved Gunpowder",
-                "row": 9,
+                "row": 20,
                 "prerequisites": [
                     "Improved Physics",
                     "Improved Steel"
@@ -503,7 +503,7 @@
         "techs": [
             {
                 "name": "Improved Navigation",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Astronomy"
                 ],
@@ -514,7 +514,7 @@
             },
             {
                 "name": "Improved Architecture",
-                "row": 3,
+                "row": 14,
                 "prerequisites": [
                     "Improved Acoustics",
                     "Improved Banking"
@@ -526,7 +526,7 @@
             },
             {
                 "name": "Improved Economics",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Banking",
                     "Improved Printing Press"
@@ -539,7 +539,7 @@
             },
             {
                 "name": "Improved Metallurgy",
-                "row": 7,
+                "row": 19,
                 "prerequisites": [
                     "Improved Printing Press",
                     "Improved Gunpowder"
@@ -552,7 +552,7 @@
             },
             {
                 "name": "Improved Chemistry",
-                "row": 9,
+                "row": 20,
                 "prerequisites": [
                     "Improved Gunpowder"
                 ],
@@ -573,7 +573,7 @@
         "techs": [
             {
                 "name": "Improved Archaeology",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Navigation",
                     "Improved Architecture"
@@ -586,7 +586,7 @@
             },
             {
                 "name": "Improved Scientific Theory",
-                "row": 3,
+                "row": 14,
                 "prerequisites": [
                     "Improved Architecture",
                     "Improved Economics"
@@ -599,7 +599,7 @@
             },
             {
                 "name": "Improved Industrialization",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Economics"
                 ],
@@ -611,7 +611,7 @@
             },
             {
                 "name": "Improved Rifling",
-                "row": 7,
+                "row": 17,
                 "prerequisites": [
                     "Improved Economics",
                     "Improved Metallurgy"
@@ -624,7 +624,7 @@
             },
             {
                 "name": "Improved Military Science",
-                "row": 9,
+                "row": 19,
                 "prerequisites": [
                     "Improved Metallurgy",
                     "Improved Chemistry"
@@ -636,7 +636,7 @@
             },
             {
                 "name": "Improved Fertilizer",
-                "row": 11,
+                "row": 20,
                 "prerequisites": [
                     "Improved Chemistry"
                 ],
@@ -657,7 +657,7 @@
         "techs": [
             {
                 "name": "Improved Biology",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Archaeology",
                     "Improved Scientific Theory"
@@ -670,7 +670,7 @@
             },
             {
                 "name": "Improved Electricity",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Scientific Theory"
                 ],
@@ -682,7 +682,7 @@
             },
             {
                 "name": "Improved Steam Power",
-                "row": 5,
+                "row": 16,
                 "uniques": [
                     "[+1] Movement <for [Embarked] units>",
                     "[+100]% weight to this choice for AI decisions"
@@ -696,7 +696,7 @@
             },
             {
                 "name": "Improved Dynamite",
-                "row": 7,
+                "row": 19,
                 "prerequisites": [
                     "Improved Fertilizer",
                     "Improved Military Science"
@@ -717,7 +717,7 @@
         "techs": [
             {
                 "name": "Improved Refrigeration",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Biology",
                     "Improved Electricity"
@@ -730,7 +730,7 @@
             },
             {
                 "name": "Improved Radio",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Electricity"
                 ],
@@ -742,7 +742,7 @@
             },
             {
                 "name": "Improved Replaceable Parts",
-                "row": 5,
+                "row": 14,
                 "prerequisites": [
                     "Improved Electricity",
                     "Improved Steam Power"
@@ -755,7 +755,7 @@
             },
             {
                 "name": "Improved Flight",
-                "row": 7,
+                "row": 16,
                 "prerequisites": [
                     "Improved Steam Power"
                 ],
@@ -766,7 +766,7 @@
             },
             {
                 "name": "Improved Railroads",
-                "row": 9,
+                "row": 18,
                 "prerequisites": [
                     "Improved Steam Power",
                     "Improved Dynamite"
@@ -788,7 +788,7 @@
         "techs": [
             {
                 "name": "Improved Plastics",
-                "row": 1,
+                "row": 13,
                 "prerequisites": [
                     "Improved Radio",
                     "Improved Replaceable Parts"
@@ -801,7 +801,7 @@
             },
             {
                 "name": "Improved Electronics",
-                "row": 3,
+                "row": 15,
                 "prerequisites": [
                     "Improved Replaceable Parts",
                     "Improved Flight"
@@ -813,7 +813,7 @@
             },
             {
                 "name": "Improved Ballistics",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Flight"
                 ],
@@ -824,7 +824,7 @@
             },
             {
                 "name": "Improved Combustion",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Railroads"
                 ],
@@ -845,7 +845,7 @@
         "techs": [
             {
                 "name": "Improved Pharmaceuticals",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Plastics",
                     "Improved Refrigeration"
@@ -857,7 +857,7 @@
             },
             {
                 "name": "Improved Atomic Theory",
-                "row": 3,
+                "row": 14,
                 "prerequisites": [
                     "Improved Plastics",
                     "Improved Electronics"
@@ -870,7 +870,7 @@
             },
             {
                 "name": "Improved Radar",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Ballistics",
                     "Improved Electronics"
@@ -882,7 +882,7 @@
             },
             {
                 "name": "Improved Combined Arms",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Ballistics",
                     "Improved Combustion"
@@ -903,7 +903,7 @@
         "techs": [
             {
                 "name": "Improved Ecology",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Atomic Theory",
                     "Improved Pharmaceuticals"
@@ -915,7 +915,7 @@
             },
             {
                 "name": "Improved Nuclear Fission",
-                "row": 3,
+                "row": 14,
                 "prerequisites": [
                     "Improved Atomic Theory",
                     "Improved Radar"
@@ -927,7 +927,7 @@
             },
             {
                 "name": "Improved Rocketry",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Radar"
                 ],
@@ -939,7 +939,7 @@
             },
             {
                 "name": "Improved Computers",
-                "row": 7,
+                "row": 18,
                 "prerequisites": [
                     "Improved Combined Arms",
                     "Improved Radar"
@@ -960,7 +960,7 @@
         "techs": [
             {
                 "name": "Improved Telecommunications",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Ecology"
                 ],
@@ -971,7 +971,7 @@
             },
             {
                 "name": "Improved Mobile Tactics",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Ecology",
                     "Improved Nuclear Fission"
@@ -983,7 +983,7 @@
             },
             {
                 "name": "Improved Advanced Ballistics",
-                "row": 5,
+                "row": 15,
                 "prerequisites": [
                     "Improved Nuclear Fission",
                     "Improved Rocketry"
@@ -995,7 +995,7 @@
             },
             {
                 "name": "Improved Satellites",
-                "row": 7,
+                "row": 16,
                 "prerequisites": [
                     "Improved Rocketry"
                 ],
@@ -1008,7 +1008,7 @@
             },
             {
                 "name": "Improved Robotics",
-                "row": 9,
+                "row": 17,
                 "prerequisites": [
                     "Improved Rocketry",
                     "Improved Computers"
@@ -1020,7 +1020,7 @@
             },
             {
                 "name": "Improved Lasers",
-                "row": 11,
+                "row": 18,
                 "prerequisites": [
                     "Improved Computers"
                 ],
@@ -1041,7 +1041,7 @@
         "techs": [
             {
                 "name": "Improved Globalization",
-                "row": 1,
+                "row": 12,
                 "prerequisites": [
                     "Improved Telecommunications"
                 ],
@@ -1053,7 +1053,7 @@
             },
             {
                 "name": "Improved Particle Physics",
-                "row": 3,
+                "row": 13,
                 "prerequisites": [
                     "Improved Telecommunications",
                     "Improved Mobile Tactics",
@@ -1066,7 +1066,7 @@
             },
             {
                 "name": "Improved Nuclear Fusion",
-                "row": 5,
+                "row": 16,
                 "prerequisites": [
                     "Improved Advanced Ballistics",
                     "Improved Satellites",
@@ -1080,7 +1080,7 @@
             },
             {
                 "name": "Improved Nanotechnology",
-                "row": 7,
+                "row": 17,
                 "prerequisites": [
                     "Improved Robotics"
                 ],
@@ -1091,7 +1091,7 @@
             },
             {
                 "name": "Improved Stealth",
-                "row": 9,
+                "row": 18,
                 "prerequisites": [
                     "Improved Robotics",
                     "Improved Lasers"
@@ -1113,7 +1113,7 @@
         "techs": [
             {
                 "name": "Improved Future Tech",
-                "row": 1,
+                "row": 15,
                 "prerequisites": [
                     "Improved Globalization",
                     "Improved Particle Physics",
