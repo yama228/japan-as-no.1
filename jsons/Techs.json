@@ -1071,30 +1071,7 @@
         "buildingCost": 750,
         "wonderCost": 1250,
         "techs": [
-            {
-                "name": "Future Singularity",
-                "row": 11,
-                "prerequisites": [
-                    "Future Tech"
-                ],
-                "uniques": [
-                    "Can be continually researched",
-                    "[+100]% weight to this choice for AI decisions"
-                ],
-                "quote": "The singularity is not the end of history, but the beginning of a new one."
-            },
-            {
-                "name": "Future Hyperdrive",
-                "row": 13,
-                "prerequisites": [
-                    "Future Tech"
-                ],
-                "uniques": [
-                    "Enables [Embarked] units to enter ocean tiles",
-                    "[+100]% weight to this choice for AI decisions"
-                ],
-                "quote": "A starship is a ship that sails the sea of space."
-            },
+
             {
                 "name": "Improved Future Tech",
                 "row": 15,
@@ -1115,6 +1092,40 @@
                         "text": "Who knows what the future holds?"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "columnNumber": 18,
+        "era": "Future era",
+        "techCost": 11000,
+        "buildingCost": 800,
+        "wonderCost": 1450,
+        "techs": [
+
+            {                
+            "name": "Future Singularity",
+            "row": 2,
+            "prerequisites": [
+            "Future Tech"                
+            ],                
+            "uniques": [
+            "Can be continually researched",
+            "[+100]% weight to this choice for AI decisions"
+            ],
+            "quote": "The singularity is not the end of history, but the beginning of a new one."
+            },            
+            {        
+            "name": "Future Hyperdrive",                
+            "row": 8,                
+            "prerequisites": [                    
+                "Future Tech"                
+            ],                
+            "uniques": [                    
+                "Enables [Embarked] units to enter ocean tiles",                    
+                "[+100]% weight to this choice for AI decisions"                
+            ],                
+            "quote": "A starship is a ship that sails the sea of space."            
             },
             {
                 "name": "Future Asteroid Mining",
@@ -1127,10 +1138,19 @@
                     "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "The wealth of worlds lies in the ruins of the old."
-            },
+            }
+        ]
+    } ,
+    {
+        "columnNumber":19,
+        "era": "Future era",
+        "techCost": 12500,
+        "buildingCost": 800,
+        "wonderCost": 1450,
+        "techs": [
             {
                 "name": "Future Quantum Computing",
-                "row": 18,
+                "row": 5,
                 "prerequisites": [
                     "Future Hyperdrive",
                     "Future Asteroid Mining"
@@ -1140,10 +1160,19 @@
                     "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "Quantum computation turns possibility into reality."
-            },
+            }           
+        ]
+    },   
+    {
+        "columnNumber":20,
+        "era": "Future era",
+        "techCost": 13500,
+        "buildingCost": 800,
+        "wonderCost": 1450,
+        "techs": [
             {
                 "name": "Future era branch",
-                "row": 19,
+                "row": 5,
                 "prerequisites": [
                     "Future Quantum Computing"
                 ],
@@ -1152,12 +1181,13 @@
                     "Reveals the entire map"
                 ],
                 "quote": "A new horizon opens for those who outlast the old age."
-            },
+            },    
             {
                 "name": "Improved Future era branch",
-                "row": 20,
+                "row": 15,
                 "prerequisites": [
-                    "Future era branch"
+                    "Future Quantum Computing",
+                    "Improved Future Tech"
                 ],
                 "uniques": [
                     "Can be continually researched",
@@ -1165,7 +1195,8 @@
                     "[+2 Science]"
                 ],
                 "quote": "The improved future branch turns possibility into mastery."
-            }
+            }       
+           
         ]
     }
 ]
