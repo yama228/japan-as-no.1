@@ -65,7 +65,7 @@
     "cost": 120,
     "gold": 4,
      "percentStatBonus": {
-        "gold": 15
+        "gold": 30
     },
     "maintenance": 0,
     "requiredTech": "Currency",
@@ -97,7 +97,7 @@
     "cost": 500,
     "science": 6,
      "percentStatBonus": {
-        "research": 70
+        "science": 70
     },
     "maintenance": 3,
     "requiredTech": "Plastics",
