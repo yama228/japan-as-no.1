@@ -995,7 +995,7 @@
         "techs": [
             {
                 "name": "Improved Telecommunications",
-                "row": 12,
+                "row": 11,
                 "prerequisites": [
                     "Improved Ecology"
                 ],
@@ -1080,7 +1080,7 @@
         "techs": [
             {
                 "name": "Improved Globalization",
-                "row": 12,
+                "row": 11,
                 "prerequisites": [
                     "Improved Telecommunications"
                 ],
@@ -1223,148 +1223,6 @@
                     "[+100]% weight to this choice for AI decisions"
                 ],
                 "quote": "Quantum computation turns possibility into reality."
-            }
-        ]
-    },
-    {
-        "columnNumber": 18,
-        "era": "Future era",
-        "techCost": 12000,
-        "buildingCost": 1000,
-        "wonderCost": 1500,
-        "techs": [
-            {
-                "name": "Animal Husbandry",
-                "row": 15,
-                "prerequisites": [
-                    "Agriculture"
-                ],
-                "uniques": [
-                    "[+1 Food] from [Pasture] tiles [in this city]"
-                ],
-                "quote": "A life of craft begins with tending the herd and the field."
-            },
-            {
-                "name": "Improved Animal Husbandry",
-                "row": 16,
-                "prerequisites": [
-                    "Animal Husbandry"
-                ],
-                "uniques": [
-                    "[+2 Food] from [Pasture] tiles [in this city]"
-                ],
-                "quote": "The improved husbandry turns pasture into abundance."
-            },
-            {
-                "name": "Mining",
-                "row": 17,
-                "prerequisites": [
-                    "Agriculture"
-                ],
-                "uniques": [
-                    "[+1 Production] from [Mine] tiles [in this city]"
-                ],
-                "quote": "A mountain yields its store to patient hands."
-            },
-            {
-                "name": "Improved Mining",
-                "row": 18,
-                "prerequisites": [
-                    "Mining"
-                ],
-                "uniques": [
-                    "[+2 Production] from [Mine] tiles [in this city]"
-                ],
-                "quote": "Improved mining turns every seam into strength."
-            },
-            {
-                "name": "Sailing",
-                "row": 19,
-                "prerequisites": [
-                    "Pottery"
-                ],
-                "uniques": [
-                    "[+1 Gold] from [Coast] tiles [in this city]"
-                ],
-                "quote": "The sea invites those who learn to read its currents."
-            },
-            {
-                "name": "Improved Sailing",
-                "row": 20,
-                "prerequisites": [
-                    "Sailing"
-                ],
-                "uniques": [
-                    "[+2 Gold] from [Coast] tiles [in this city]",
-                    "[+1] Movement <for [Embarked] units>"
-                ],
-                "quote": "The improved sail brings speed, wealth, and reach."
-            },
-            {
-                "name": "Writing",
-                "row": 21,
-                "prerequisites": [
-                    "Pottery"
-                ],
-                "uniques": [
-                    "[+1 Science]"
-                ],
-                "quote": "Knowledge ripens when it can be shared."
-            },
-            {
-                "name": "Improved Writing",
-                "row": 22,
-                "prerequisites": [
-                    "Writing"
-                ],
-                "uniques": [
-                    "[+2 Science]"
-                ],
-                "quote": "The improved script becomes a new engine of thought."
-            },
-            {
-                "name": "Masonry",
-                "row": 23,
-                "prerequisites": [
-                    "Mining"
-                ],
-                "uniques": [
-                    "[+1 Production]"
-                ],
-                "quote": "Stone and labor together give shape to shelter."
-            },
-            {
-                "name": "Improved Masonry",
-                "row": 24,
-                "prerequisites": [
-                    "Masonry"
-                ],
-                "uniques": [
-                    "[+2 Production]"
-                ],
-                "quote": "The improved craft makes every wall more enduring."
-            },
-            {
-                "name": "Physics",
-                "row": 25,
-                "prerequisites": [
-                    "Writing"
-                ],
-                "uniques": [
-                    "[+1 Science]"
-                ],
-                "quote": "The study of nature opens hidden order."
-            },
-            {
-                "name": "Improved Physics",
-                "row": 26,
-                "prerequisites": [
-                    "Physics"
-                ],
-                "uniques": [
-                    "[+2 Science]"
-                ],
-                "quote": "Improved physics turns observation into mastery."
             }
         ]
     }
