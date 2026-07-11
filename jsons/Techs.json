@@ -2,13 +2,14 @@
     {
         "columnNumber": 0,
         "era": "Ancient era",
-        "techCost": 200000000000,
+        "techCost": 20,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
             {
                 "name": "Only japanese techs",
-                "row": 1,
+				"cost": 2000000,
+				"row": 1,
                 "quote": "The Japanese are a people of great ingenuity and skill, and their technological advancements have been a driving force in their history.",
                 "uniques": []
             }
