@@ -23,7 +23,40 @@
         "[+2 Science]",
         "[+1 Happiness]"
     ]
-    }	
+    },
+    {
+    "name": "Takumi Workshop",
+    "replaces": "Workshop",
+    "uniqueTo": "Japan",
+    "maintenance": 2,
+    "production": 3,
+    "specialistSlots": {
+        "Engineer": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+        "production": 15
+    },
+    "requiredTech": "Metal Casting",
+    "science": 1
+    },
+    {
+    "name": "Japanese Forge",
+    "replaces": "Forge",
+    "uniqueTo": "Japan",
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "requiredNearbyImprovedResources": [
+        "Iron"
+    ],
+    "requiredTech": "Metal Casting",
+    "production": 1,
+    "culture": 1,
+    "uniques": [
+        "[+20]% Production when constructing [Land] units [in this city]",
+        "[+2 Production] from [Iron] tiles [in this city]"
+    ]
+    }
 
 	
 ]
