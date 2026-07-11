@@ -108,6 +108,78 @@
         "[+1 Production]",
         "[+1 Happiness]"
     ]
+},
+{
+    "name": "Kokudaka Granary",
+    "uniqueTo": "Japan",
+    "cost": 240,
+    "food": 2,
+    "production": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Animal Husbandry",
+    "uniques": [
+        "[+1 Food] from [Farm] tiles [in this city]"
+    ]
+},
+{
+    "name": "Mountain Workshop",
+    "uniqueTo": "Japan",
+    "cost": 240,
+    "production": 3,
+    "science": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Mining",
+    "uniques": [
+        "[+1 Production] from [Mine] tiles [in this city]"
+    ]
+},
+{
+    "name": "Sailmakers Wharf",
+    "uniqueTo": "Japan",
+    "cost": 300,
+    "gold": 2,
+    "culture": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Sailing",
+    "uniques": [
+        "[+1 Gold] from [Coast] tiles [in this city]"
+    ]
+},
+{
+    "name": "Scribe Hall",
+    "uniqueTo": "Japan",
+    "cost": 320,
+    "science": 2,
+    "culture": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Writing",
+    "uniques": [
+        "[+1 Science]"
+    ]
+},
+{
+    "name": "Masonry Guild Hall",
+    "uniqueTo": "Japan",
+    "cost": 320,
+    "production": 2,
+    "culture": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Masonry",
+    "uniques": [
+        "[+1 Production]"
+    ]
+},
+{
+    "name": "Imperial Observatory",
+    "uniqueTo": "Japan",
+    "cost": 450,
+    "science": 3,
+    "production": 1,
+    "maintenance": 2,
+    "requiredTech": "Improved Physics",
+    "uniques": [
+        "[+1 Science]"
+    ]
 }
 
 	

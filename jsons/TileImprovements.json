@@ -21,6 +21,74 @@
         "techRequired": "Industrialization",
         "food": 2,
         "production": 2,
-        "gold": 3    
+        "gold": 3
+    },
+    {
+        "name": "Kokudaka Rice Paddy",
+        "terrainsCanBeBuiltOn": [
+            "Grassland",
+            "Plains"
+        ],
+        "turnsToBuild": 6,
+        "techRequired": "Improved Animal Husbandry",
+        "food": 2,
+        "production": 1
+    },
+    {
+        "name": "Mountain Quarry",
+        "terrainsCanBeBuiltOn": [
+            "Hill",
+            "Mountain"
+        ],
+        "turnsToBuild": 7,
+        "techRequired": "Improved Mining",
+        "production": 2,
+        "gold": 1
+    },
+    {
+        "name": "Sailmakers Marina",
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean"
+        ],
+        "turnsToBuild": 7,
+        "techRequired": "Improved Sailing",
+        "food": 1,
+        "gold": 2
+    },
+    {
+        "name": "Scribe Garden",
+        "terrainsCanBeBuiltOn": [
+            "Grassland",
+            "Plains"
+        ],
+        "turnsToBuild": 6,
+        "techRequired": "Improved Writing",
+        "science": 1,
+        "culture": 1
+    },
+    {
+        "name": "Masonry Terrace",
+        "terrainsCanBeBuiltOn": [
+            "Hill",
+            "Grassland",
+            "Plains"
+        ],
+        "turnsToBuild": 7,
+        "techRequired": "Improved Masonry",
+        "production": 1,
+        "culture": 1
+    },
+    {
+        "name": "Imperial Observatory Site",
+        "terrainsCanBeBuiltOn": [
+            "Hill",
+            "Grassland",
+            "Plains"
+        ],
+        "turnsToBuild": 8,
+        "techRequired": "Improved Physics",
+        "science": 2,
+        "culture": 1
     }
 ]
