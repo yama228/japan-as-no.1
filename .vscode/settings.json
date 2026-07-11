@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /workspaces/japan-as-no\\.1 && python - <<'PY'\nimport json, re, sys\nfrom pathlib import Path\np = Path\\('jsons/Techs\\.json'\\)\ndata = json\\.loads\\(p\\.read_text\\(\\)\\)\n# Minimal validation for obvious issues\nfor col in data:\n    for tech in col\\.get\\('techs', \\[\\]\\):\n        name = tech\\.get\\('name', ''\\)\n        if name == 'Improved Animal Husbandry' and tech\\.get\\('uniques'\\) == \\[\\]:\n            print\\('empty uniques for', name\\)\n        # report any remaining explicitly unsupported patterns\n        for uniq in tech\\.get\\('uniques', \\[\\]\\):\n            if '\\[\\+10\\]% Production <for \\[All\\] cities>' in uniq:\n                print\\('unsupported uniq', name, uniq\\)\n            if uniq == '' :\n                print\\('empty uniq', name\\)\nprint\\('validation done'\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
