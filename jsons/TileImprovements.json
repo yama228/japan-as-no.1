@@ -9,8 +9,7 @@
         "techRequired": "Optics",
         "food": 1,
         "production": 1,
-        "gold": 2,
-        "civilopediaText": "A developed harbor area that improves coastal economic activity."
+        "gold": 2
     },
     {
         "name": "Industrial Harbor",
@@ -22,7 +21,6 @@
         "techRequired": "Industrialization",
         "food": 2,
         "production": 2,
-        "gold": 3,
-        "civilopediaText": "An advanced harbor area that significantly boosts coastal economic activity."
+        "gold": 3    
     }
 ]
