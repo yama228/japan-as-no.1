@@ -64,11 +64,13 @@
     "uniqueTo": "Japan",
     "cost": 120,
     "gold": 4,
+     "percentStatBonus": {
+        "gold": 15
+    },
     "maintenance": 0,
     "requiredTech": "Currency",
     "uniques": [
-        "[+1 Science]",
-        "[+10]% Gold [in this city]"
+        "[+1 Science]"
     ]
 },
 {
@@ -77,11 +79,13 @@
     "uniqueTo": "Japan",
     "cost": 650,
     "gold": 6,
+     "percentStatBonus": {
+        "gold": 45
+    },
     "maintenance": 0,
     "requiredBuilding": "Bank",
     "requiredTech": "Electricity",
     "uniques": [
-        "[+25]% Gold",
         "[+2 Science]",
         "[+1 Happiness]"
     ]
@@ -92,13 +96,15 @@
     "uniqueTo": "Japan",
     "cost": 500,
     "science": 6,
+     "percentStatBonus": {
+        "research": 70
+    },
     "maintenance": 3,
     "requiredTech": "Plastics",
     "specialistSlots": {
         "Scientist": 2
     },
     "uniques": [
-        "[+15]% Science",
         "[+1 Production]",
         "[+1 Happiness]"
     ]
