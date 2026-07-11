@@ -4,8 +4,8 @@
     "replaces": "Factory",
     "uniqueTo": "Japan",
 
-    "cost": 360,
-    "production": 6,
+    "cost": 500,
+    "production": 8,
     "percentStatBonus": {
         "production": 15
     },
@@ -13,13 +13,12 @@
         "Engineer": 2
     },
     "requiredBuilding": "Workshop",
-    "maintenance": 3,
+    "maintenance": 4,
     "requiredResource": "Coal",
     "requiredTech": "Industrialization",
 
     "uniques": [
-        "Provides [1] [Factories]",
-        "Adopt [Ideology] <when above [2] [Factories]>",
+        "[+1 food] from [Rubber] tiles [in this city]",
         "[+2 Gold] from [Rubber] tiles [in this city]",
         "[+2 Science]",
         "[+1 Happiness]"
