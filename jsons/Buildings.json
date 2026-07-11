@@ -71,16 +71,6 @@
         "[+10]% Gold [in this city]"
     ]
 },
-    {
-    "name": "Shinkansen",
-    "replaces": "Railroad",
-    "uniqueTo": "Japan",
-    "maintenance": 1,
-    "requiredTech": "Railroad",
-    "uniques": [
-        "[+1 Movement] for [Land] units [on this Railroad]"
-    ]
-},
 {
     "name": "Tokyo Stock Exchange",
     "replaces": "Stock Exchange",
