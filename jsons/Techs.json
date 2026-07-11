@@ -1235,7 +1235,7 @@
         "techs": [
             {
                 "name": "Animal Husbandry",
-                "row": 11,
+                "row": 15,
                 "prerequisites": [
                     "Agriculture"
                 ],
@@ -1246,7 +1246,7 @@
             },
             {
                 "name": "Improved Animal Husbandry",
-                "row": 12,
+                "row": 16,
                 "prerequisites": [
                     "Animal Husbandry"
                 ],
@@ -1257,7 +1257,7 @@
             },
             {
                 "name": "Mining",
-                "row": 13,
+                "row": 17,
                 "prerequisites": [
                     "Agriculture"
                 ],
@@ -1268,7 +1268,7 @@
             },
             {
                 "name": "Improved Mining",
-                "row": 14,
+                "row": 18,
                 "prerequisites": [
                     "Mining"
                 ],
@@ -1279,7 +1279,7 @@
             },
             {
                 "name": "Sailing",
-                "row": 15,
+                "row": 19,
                 "prerequisites": [
                     "Pottery"
                 ],
@@ -1290,7 +1290,7 @@
             },
             {
                 "name": "Improved Sailing",
-                "row": 16,
+                "row": 20,
                 "prerequisites": [
                     "Sailing"
                 ],
@@ -1302,7 +1302,7 @@
             },
             {
                 "name": "Writing",
-                "row": 17,
+                "row": 21,
                 "prerequisites": [
                     "Pottery"
                 ],
@@ -1313,7 +1313,7 @@
             },
             {
                 "name": "Improved Writing",
-                "row": 18,
+                "row": 22,
                 "prerequisites": [
                     "Writing"
                 ],
@@ -1324,7 +1324,7 @@
             },
             {
                 "name": "Masonry",
-                "row": 19,
+                "row": 23,
                 "prerequisites": [
                     "Mining"
                 ],
@@ -1335,7 +1335,7 @@
             },
             {
                 "name": "Improved Masonry",
-                "row": 20,
+                "row": 24,
                 "prerequisites": [
                     "Masonry"
                 ],
@@ -1346,7 +1346,7 @@
             },
             {
                 "name": "Physics",
-                "row": 21,
+                "row": 25,
                 "prerequisites": [
                     "Writing"
                 ],
@@ -1357,7 +1357,7 @@
             },
             {
                 "name": "Improved Physics",
-                "row": 22,
+                "row": 26,
                 "prerequisites": [
                     "Physics"
                 ],
