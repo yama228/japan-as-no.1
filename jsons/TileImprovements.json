@@ -6,7 +6,7 @@
             "Ocean"
         ],
         "turnsToBuild": 8,
-        "techRequired": "Optics",
+        "requiredTech": "Optics",
         "uniques": [
             "[+1 Food] from tiles with this improvement",
             "[+1 Production] from tiles with this improvement",
@@ -22,7 +22,7 @@
             "Ocean"
         ],
         "turnsToBuild": 10,
-        "techRequired": "Industrialization",
+        "requiredTech": "Industrialization",
         "uniques": [
             "[+2 Food] from tiles with this improvement",
             "[+2 Production] from tiles with this improvement",
