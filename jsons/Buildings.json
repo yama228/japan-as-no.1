@@ -81,7 +81,7 @@
     "requiredBuilding": "Bank",
     "requiredTech": "Electricity",
     "uniques": [
-        "[+25]% Gold [in this city]",
+        "[+25]% Gold",
         "[+2 Science]",
         "[+1 Happiness]"
     ]
@@ -98,7 +98,7 @@
         "Scientist": 2
     },
     "uniques": [
-        "[+15]% Science [in this city]",
+        "[+15]% Science",
         "[+1 Production]",
         "[+1 Happiness]"
     ]
