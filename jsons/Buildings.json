@@ -18,10 +18,12 @@
     "requiredTech": "Industrialization",
 
     "uniques": [
-        "[+1 food] from [Rubber] tiles [in this city]",
-        "[+2 Gold] from [Rubber] tiles [in this city]",
+        "[+1 Food] from [Farm] tiles [in this city]",
+        "[+2 Production] from [Mine] tiles [in this city]",
         "[+2 Science]",
         "[+1 Happiness]"
     ]
-    }
+    }	
+
+	
 ]
