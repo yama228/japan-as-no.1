@@ -1075,7 +1075,7 @@
                 "name": "Future Singularity",
                 "row": 11,
                 "prerequisites": [
-                    "Improved Future Tech"
+                    "Future Tech"
                 ],
                 "uniques": [
                     "Can be continually researched",
@@ -1087,7 +1087,7 @@
                 "name": "Future Hyperdrive",
                 "row": 13,
                 "prerequisites": [
-                    "Improved Future Tech"
+                    "Future Tech"
                 ],
                 "uniques": [
                     "Enables [Embarked] units to enter ocean tiles",
@@ -1120,7 +1120,7 @@
                 "name": "Future Asteroid Mining",
                 "row": 16,
                 "prerequisites": [
-                    "Future Singularity"
+                    "Future Tech"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Archer] units>",
@@ -1145,7 +1145,7 @@
                 "name": "Future era branch",
                 "row": 19,
                 "prerequisites": [
-                    "Improved Future Tech"
+                    "Future Quantum Computing"
                 ],
                 "uniques": [
                     "Can be continually researched",
