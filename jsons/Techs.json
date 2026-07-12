@@ -1100,7 +1100,8 @@
                         "text": "Who knows what the future holds?"
                     }
                 ]
-            },            {
+            },            
+            {
                 "name": "Future Singularity",
                 "row": 3,
                 "prerequisites": [
@@ -1136,7 +1137,7 @@
         ]
     },
     {
-        "columnNumber": 20,
+        "columnNumber": 19,
         "era": "Future era",
         "techCost": 13500,
         "buildingCost": 800,
