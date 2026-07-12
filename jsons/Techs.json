@@ -1157,9 +1157,9 @@
             }
         ]
     },
-    
+
     {
-        "columnNumber": 21,
+        "columnNumber": 20,
         "era": "Future era",
         "techCost": 13500,
         "buildingCost": 800,
