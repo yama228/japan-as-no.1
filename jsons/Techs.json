@@ -9,7 +9,7 @@
             {
                 "name": "Only japanese techs",
                 "cost": 9999999,
-                "row": 1,
+                "row": 12,
                 "quote": "The Japanese are a people of great ingenuity and skill, and their technological advancements have been a driving force in their history.",
                 "uniques": [
                     "[+1 Science]"
@@ -26,7 +26,7 @@
         "techs": [
             {
                 "name": "Improved Pottery",
-                "row": 14,
+                "row": 12,
                 "prerequisites": [
                     "Only japanese techs",
                     "Pottery"
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Improved Animal Husbandry",
-                "row": 17,
+                "row": 15,
                 "prerequisites": [
                     "Only japanese techs",
                     "Animal Husbandry"
@@ -50,7 +50,7 @@
             },
             {
                 "name": "Improved Archery",
-                "row": 19,
+                "row": 17,
                 "prerequisites": [
                     "Only japanese techs",
                     "Archery"
@@ -62,9 +62,9 @@
             },
             {
                 "name": "Improved Mining",
-                "row": 21,
+                "row": 19,
                 "prerequisites": [
-                    "Agriculture",
+                    "Mining",
                     "Only japanese techs"
                 ],
                 "uniques": [
@@ -85,7 +85,8 @@
                 "name": "Improved Sailing",
                 "row": 11,
                 "prerequisites": [
-                    "Improved Pottery"
+                    "Improved Pottery",
+                    "Sailing"
                 ],
                 "uniques": [
                     "[+1 Gold] from [Coast] tiles [in this city]"
@@ -96,7 +97,8 @@
                 "name": "Improved Calendar",
                 "row": 12,
                 "prerequisites": [
-                    "Improved Pottery"
+                    "Improved Pottery",
+                    "Calendar"
                 ],
                 "uniques": [
                     "[+1 Food] from [Plantation] tiles [in this city]"
@@ -107,7 +109,8 @@
                 "name": "Improved Writing",
                 "row": 13,
                 "prerequisites": [
-                    "Improved Pottery"
+                    "Improved Pottery",
+                    "Writing"
                 ],
                 "uniques": [
                     "[+2 Science]"
@@ -118,7 +121,8 @@
                 "name": "Improved Trapping",
                 "row": 15,
                 "prerequisites": [
-                    "Improved Animal Husbandry"
+                    "Improved Animal Husbandry",
+                    "Trapping"
                 ],
                 "uniques": [
                     "[+1 Food] from [Camp] tiles [in this city]"
@@ -130,7 +134,8 @@
                 "row": 17,
                 "prerequisites": [
                     "Improved Animal Husbandry",
-                    "Improved Archery"
+                    "Improved Archery",
+                    "The Wheel"
                 ],
                 "uniques": [
                     "Improves movement speed on roads"
@@ -141,7 +146,8 @@
                 "name": "Improved Masonry",
                 "row": 19,
                 "prerequisites": [
-                    "Improved Mining"
+                    "Improved Mining",
+                    "Masonry"
                 ],
                 "quote": "'How happy are those whose walls already rise!' - Virgil",
                 "uniques": [
@@ -152,7 +158,8 @@
                 "name": "Improved Bronze Working",
                 "row": 20,
                 "prerequisites": [
-                    "Improved Mining"
+                    "Improved Mining",
+                    "Bronze Working"
                 ],
                 "uniques": [
                     "[+15]% Strength <for [Melee] units>"
@@ -173,7 +180,8 @@
                 "cost": 85,
                 "row": 11,
                 "prerequisites": [
-                    "Improved Sailing"
+                    "Improved Sailing",
+                    "Optics"
                 ],
                 "uniques": [
                      "[+1 Gold] from [Coast] tiles [in all cities]"
@@ -185,7 +193,8 @@
                 "row": 15,
                 "prerequisites": [
                     "Improved Trapping",
-                    "Improved The Wheel"
+                    "Improved The Wheel",
+                    "Horseback Riding"
                 ],
                 "uniques": [
                     "[+15]% Strength <for [Mounted] units>"
@@ -196,7 +205,8 @@
                 "name": "Improved Mathematics",
                 "row": 17,
                 "prerequisites": [
-                    "Improved The Wheel"
+                    "Improved The Wheel",
+                    "Mathematics"
                 ],
                 "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon",
                 "uniques": [
@@ -208,7 +218,8 @@
                 "row": 19,
                 "prerequisites": [
                     "Improved Masonry",
-                    "Improved The Wheel"
+                    "Improved The Wheel",
+                    "Construction"
                 ],
                 "uniques": [
                     "[+1 Production] from [Lumber mill] tiles [in this city]"
@@ -229,7 +240,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Writing",
-                    "Improved Calendar"
+                    "Improved Calendar",
+                    "Philosophy"
                 ],
                 "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates",
                 "uniques": [
@@ -240,7 +252,8 @@
                 "name": "Improved Drama and Poetry",
                 "row": 13,
                 "prerequisites": [
-                    "Improved Writing"
+                    "Improved Writing",
+                    "Drama and Poetry"
                 ],
                 "quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock",
                 "uniques": [
@@ -251,7 +264,8 @@
                 "name": "Improved Currency",
                 "row": 17,
                 "prerequisites": [
-                    "Improved Mathematics"
+                    "Improved Mathematics",
+                    "Currency"
                 ],
                 "uniques": [
                     "[+1 Gold] from [Trading post] tiles [in this city]",
@@ -264,7 +278,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Mathematics",
-                    "Improved Construction"
+                    "Improved Construction",
+                    "Engineering"
                 ],
                 "uniques": [
                     "[+1 Production] from [Mine] tiles [in this city]",
@@ -276,7 +291,8 @@
                 "name": "Improved Iron Working",
                 "row": 20,
                 "prerequisites": [
-                    "Improved Bronze Working"
+                    "Improved Bronze Working",
+                    "Iron Working"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Melee] units>"
@@ -297,7 +313,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Philosophy",
-                    "Improved Drama and Poetry"
+                    "Improved Drama and Poetry",
+                    "Theology"
                 ],
                 "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas",
                 "uniques": [
@@ -310,7 +327,8 @@
                 "prerequisites": [
                     "Improved Currency",
                     "Improved Horseback Riding",
-                    "Improved Drama and Poetry"
+                    "Improved Drama and Poetry",
+                    "Civil Service"
                 ],
                 "uniques": [
                     "[+1 Food] from [Farm] tiles [in this city]"
@@ -321,7 +339,8 @@
                 "name": "Improved Guilds",
                 "row": 17,
                 "prerequisites": [
-                    "Improved Currency"
+                    "Improved Currency",
+                    "Guilds"
                 ],
                 "uniques": [
                     "[+1 Production] from [Trading post] tiles [in this city]"
@@ -333,7 +352,8 @@
                 "row": 19,
                 "prerequisites": [
                     "Improved Engineering",
-                    "Improved Iron Working"
+                    "Improved Iron Working",
+                    "Metal Casting"
                 ],
                 "uniques": [
                     "[+1 Production] from [Mine] tiles [in this city]",
@@ -356,7 +376,8 @@
                 "row": 11,
                 "prerequisites": [
                     "Improved Optics",
-                    "Improved Theology"
+                    "Improved Theology",
+                    "Compass"
                 ],
                 "uniques": [
                     "[+1 Gold] from [Coast] tiles [in all cities]",
@@ -369,7 +390,8 @@
                 "row": 13,
                 "prerequisites": [
                     "Improved Theology",
-                    "Improved Civil Service"
+                    "Improved Civil Service",
+                    "Education"
                 ],
                 "uniques": [
                     "[+1 Science] from [Mountain] tiles [in all cities]"
@@ -381,7 +403,8 @@
                 "row": 16,
                 "prerequisites": [
                     "Improved Civil Service",
-                    "Improved Guilds"
+                    "Improved Guilds",
+                    "Chivalry"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Mounted] units>",
@@ -394,7 +417,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Guilds",
-                    "Improved Engineering"
+                    "Improved Engineering",
+                    "Machinery"
                 ],
                 "uniques": [
                     "[+1 Production] from [Lumber mill] tiles [in this city]",
@@ -406,7 +430,8 @@
                 "name": "Improved Physics",
                 "row": 19,
                 "prerequisites": [
-                    "Improved Metal Casting"
+                    "Improved Metal Casting",
+                    "Physics"
                 ],
                 "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei",
                 "uniques": [
@@ -418,7 +443,8 @@
                 "name": "Improved Steel",
                 "row": 20,
                 "prerequisites": [
-                    "Improved Metal Casting"
+                    "Improved Metal Casting",
+                    "Steel"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Melee] units>"
@@ -442,7 +468,8 @@
                 ],
                 "prerequisites": [
                     "Improved Compass",
-                    "Improved Education"
+                    "Improved Education",
+                    "Astronomy"
                 ],
                 "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
             },
@@ -451,7 +478,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Education",
-                    "Improved Chivalry"
+                    "Improved Chivalry",
+                    "Acoustics"
                 ],
                 "uniques": [
                     "[+1 Culture] from [Forest] tiles [in all cities]"
@@ -464,7 +492,8 @@
                 "row": 16,
                 "prerequisites": [
                     "Improved Chivalry",
-                    "Improved Education"
+                    "Improved Education",
+                    "Banking"
                 ],
                 "uniques": [
                     "[+2 Gold] from [Trading post] tiles [in this city]"
@@ -477,7 +506,8 @@
                 "prerequisites": [
                     "Improved Machinery",
                     "Improved Physics",
-                    "Improved Chivalry"
+                    "Improved Chivalry",
+                    "Printing Press"
                 ],
                 "uniques": [
                     "[+1 Science] from [Mountain] tiles [in all cities]"
@@ -489,7 +519,8 @@
                 "row": 20,
                 "prerequisites": [
                     "Improved Physics",
-                    "Improved Steel"
+                    "Improved Steel",
+                    "Gunpowder"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Gunpowder] units>"
@@ -509,7 +540,8 @@
                 "name": "Improved Navigation",
                 "row": 12,
                 "prerequisites": [
-                    "Improved Astronomy"
+                    "Improved Astronomy",
+                    "Navigation"
                 ],
                 "quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon",
                 "uniques": [
@@ -521,7 +553,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Acoustics",
-                    "Improved Banking"
+                    "Improved Banking",
+                    "Architecture"
                 ],
                 "quote": "'Architecture begins where engineering ends.' - Walter Gropius",
                 "uniques": [
@@ -533,7 +566,8 @@
                 "row": 16,
                 "prerequisites": [
                     "Improved Banking",
-                    "Improved Printing Press"
+                    "Improved Printing Press",
+                    "Economics"
                 ],
                 "uniques": [
                     "[+2 Gold] from [Trading post] tiles [in all cities]"
@@ -545,7 +579,8 @@
                 "row": 19,
                 "prerequisites": [
                     "Improved Printing Press",
-                    "Improved Gunpowder"
+                    "Improved Gunpowder",
+                    "Metallurgy"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Melee] units>"
@@ -556,7 +591,8 @@
                 "name": "Improved Chemistry",
                 "row": 20,
                 "prerequisites": [
-                    "Improved Gunpowder"
+                    "Improved Gunpowder",
+                    "Chemistry"
                 ],
                 "uniques": [
                     "[+2 Science] from [Mountain] tiles [in all cities]"
@@ -577,7 +613,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Navigation",
-                    "Improved Architecture"
+                    "Improved Architecture",
+                    "Archaeology"
                 ],
                 "uniques": [
                     "[+2 Culture] from [Forest] tiles [in all cities]"
@@ -589,7 +626,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Architecture",
-                    "Improved Economics"
+                    "Improved Economics",
+                    "Scientific Theory"
                 ],
                 "uniques": [
                     "[+2 Science] from [Mountain] tiles [in all cities]"
@@ -600,7 +638,8 @@
                 "name": "Improved Industrialization",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Economics"
+                    "Improved Economics",
+                    "Industrialization"
                 ],
                 "uniques": [
                     "[+2 Production] from [Mine] tiles [in all cities]"
@@ -612,7 +651,8 @@
                 "row": 17,
                 "prerequisites": [
                     "Improved Economics",
-                    "Improved Metallurgy"
+                    "Improved Metallurgy",
+                    "Rifling"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Gunpowder] units>"
@@ -624,7 +664,8 @@
                 "row": 19,
                 "prerequisites": [
                     "Improved Metallurgy",
-                    "Improved Chemistry"
+                    "Improved Chemistry",
+                    "Military Science"
                 ],
                 "quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton",
                 "uniques": [
@@ -635,7 +676,8 @@
                 "name": "Improved Fertilizer",
                 "row": 20,
                 "prerequisites": [
-                    "Improved Chemistry"
+                    "Improved Chemistry",
+                    "Fertilizer"
                 ],
                 "uniques": [
                     "[+1 Food] from [Farm] tiles [in all cities]"
@@ -656,7 +698,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Archaeology",
-                    "Improved Scientific Theory"
+                    "Improved Scientific Theory",
+                    "Biology"
                 ],
                 "uniques": [
                     "[+2 Science] from [Mountain] tiles [in all cities]"
@@ -667,7 +710,8 @@
                 "name": "Improved Electricity",
                 "row": 13,
                 "prerequisites": [
-                    "Improved Scientific Theory"
+                    "Improved Scientific Theory",
+                    "Electricity"
                 ],
                 "uniques": [
                     "[+2 Production] from [Mine] tiles [in all cities]"
@@ -683,7 +727,8 @@
                 "prerequisites": [
                     "Improved Industrialization",
                     "Improved Scientific Theory",
-                    "Improved Rifling"
+                    "Improved Rifling",
+                    "Steam Power"
                 ],
                 "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
             },
@@ -692,7 +737,8 @@
                 "row": 19,
                 "prerequisites": [
                     "Improved Fertilizer",
-                    "Improved Military Science"
+                    "Improved Military Science",
+                    "Dynamite"
                 ],
                 "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson",
                 "uniques": [
@@ -713,7 +759,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Biology",
-                    "Improved Electricity"
+                    "Improved Electricity",
+                    "Refrigeration"
                 ],
                 "uniques": [
                     "[+2 Food] from [Farm] tiles [in all cities]"
@@ -724,7 +771,8 @@
                 "name": "Improved Radio",
                 "row": 13,
                 "prerequisites": [
-                    "Improved Electricity"
+                    "Improved Electricity",
+                    "Radio"
                 ],
                 "uniques": [
                     "[+3 Gold] from [Trading post] tiles [in all cities]"
@@ -736,7 +784,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Electricity",
-                    "Improved Steam Power"
+                    "Improved Steam Power",
+                    "Replaceable Parts"
                 ],
                 "uniques": [
                     "[+3 Production] from [Mine] tiles [in all cities]"
@@ -747,7 +796,8 @@
                 "name": "Improved Flight",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Steam Power"
+                    "Improved Steam Power",
+                    "Flight"
                 ],
                 "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky",
                 "uniques": [
@@ -759,7 +809,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Steam Power",
-                    "Improved Dynamite"
+                    "Improved Dynamite",
+                    "Railroads"
                 ],
                 "uniques": [
                     "[+3 Production] from [Mine] tiles [in all cities]"
@@ -780,7 +831,8 @@
                 "row": 13,
                 "prerequisites": [
                     "Improved Radio",
-                    "Improved Replaceable Parts"
+                    "Improved Replaceable Parts",
+                    "Plastics"
                 ],
                 "uniques": [
                     "[+3 Production] from [Mine] tiles [in all cities]"
@@ -792,7 +844,8 @@
                 "row": 15,
                 "prerequisites": [
                     "Improved Replaceable Parts",
-                    "Improved Flight"
+                    "Improved Flight",
+                    "Electronics"
                 ],
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins",
                 "uniques": [
@@ -803,7 +856,8 @@
                 "name": "Improved Ballistics",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Flight"
+                    "Improved Flight",
+                    "Ballistics"
                 ],
                 "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul",
                 "uniques": [
@@ -814,7 +868,8 @@
                 "name": "Improved Combustion",
                 "row": 18,
                 "prerequisites": [
-                    "Improved Railroads"
+                    "Improved Railroads",
+                    "Combustion"
                 ],
                 "uniques": [
                     "[+3 Production] from [Mine] tiles [in all cities]"
@@ -835,7 +890,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Plastics",
-                    "Improved Refrigeration"
+                    "Improved Refrigeration",
+                    "Pharmaceuticals"
                 ],
                 "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
                 "uniques": [
@@ -847,7 +903,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Plastics",
-                    "Improved Electronics"
+                    "Improved Electronics",
+                    "Atomic Theory"
                 ],
                 "uniques": [
                     "[+3 Science] from [Mountain] tiles [in all cities]"
@@ -859,7 +916,8 @@
                 "row": 16,
                 "prerequisites": [
                     "Improved Ballistics",
-                    "Improved Electronics"
+                    "Improved Electronics",
+                    "Radar"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Air] units>"
@@ -871,7 +929,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Ballistics",
-                    "Improved Combustion"
+                    "Improved Combustion",
+                    "Combined Arms"
                 ],
                 "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises",
                 "uniques": [
@@ -892,7 +951,8 @@
                 "row": 12,
                 "prerequisites": [
                     "Improved Atomic Theory",
-                    "Improved Pharmaceuticals"
+                    "Improved Pharmaceuticals",
+                    "Ecology"
                 ],
                 "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson",
                 "uniques": [
@@ -904,7 +964,8 @@
                 "row": 14,
                 "prerequisites": [
                     "Improved Atomic Theory",
-                    "Improved Radar"
+                    "Improved Radar",
+                    "Nuclear Fission"
                 ],
                 "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer",
                 "uniques": [
@@ -915,7 +976,8 @@
                 "name": "Improved Rocketry",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Radar"
+                    "Improved Radar",
+                    "Rocketry"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Missile] units>"
@@ -927,7 +989,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Combined Arms",
-                    "Improved Radar"
+                    "Improved Radar",
+                    "Computers"
                 ],
                 "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell",
                 "uniques": [
@@ -947,7 +1010,8 @@
                 "name": "Improved Telecommunications",
                 "row": 11,
                 "prerequisites": [
-                    "Improved Ecology"
+                    "Improved Ecology",
+                    "Telecommunications"
                 ],
                 "quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly",
                 "uniques": [
@@ -959,7 +1023,8 @@
                 "row": 13,
                 "prerequisites": [
                     "Improved Ecology",
-                    "Improved Nuclear Fission"
+                    "Improved Nuclear Fission",
+                    "Mobile Tactics"
                 ],
                 "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu",
                 "uniques": [
@@ -971,7 +1036,8 @@
                 "row": 15,
                 "prerequisites": [
                     "Improved Nuclear Fission",
-                    "Improved Rocketry"
+                    "Improved Rocketry",
+                    "Advanced Ballistics"
                 ],
                 "quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr.",
                 "uniques": [
@@ -982,7 +1048,8 @@
                 "name": "Improved Satellites",
                 "row": 16,
                 "prerequisites": [
-                    "Improved Rocketry"
+                    "Improved Rocketry",
+                    "Satellites"
                 ],
                 "uniques": [
                     "[+4 Science] from [Mountain] tiles [in all cities]"
@@ -994,7 +1061,8 @@
                 "row": 17,
                 "prerequisites": [
                     "Improved Rocketry",
-                    "Improved Computers"
+                    "Improved Computers",
+                    "Robotics"
                 ],
                 "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov",
                 "uniques": [
@@ -1005,7 +1073,8 @@
                 "name": "Improved Lasers",
                 "row": 18,
                 "prerequisites": [
-                    "Improved Computers"
+                    "Improved Computers",
+                    "Lasers"
                 ],
                 "uniques": [
                     "[+4 Science] from [Mountain] tiles [in all cities]"
@@ -1025,7 +1094,8 @@
                 "name": "Improved Globalization",
                 "row": 11,
                 "prerequisites": [
-                    "Improved Telecommunications"
+                    "Improved Telecommunications",
+                    "Globalization"
                 ],
                 "uniques": [
                     "[+4 Gold] from [Trading post] tiles [in all cities]"
@@ -1038,7 +1108,8 @@
                 "prerequisites": [
                     "Improved Telecommunications",
                     "Improved Mobile Tactics",
-                    "Improved Advanced Ballistics"
+                    "Improved Advanced Ballistics",
+                    "Particle Physics"
                 ],
                 "quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton",
                 "uniques": [
@@ -1051,7 +1122,8 @@
                 "prerequisites": [
                     "Improved Advanced Ballistics",
                     "Improved Satellites",
-                    "Improved Robotics"
+                    "Improved Robotics",
+                    "Nuclear Fusion"
                 ],
                 "uniques": [
                     "[+4 Production] from [Mine] tiles [in all cities]"
@@ -1062,7 +1134,8 @@
                 "name": "Improved Nanotechnology",
                 "row": 17,
                 "prerequisites": [
-                    "Improved Robotics"
+                    "Improved Robotics",
+                    "Nanotechnology"
                 ],
                 "quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz",
                 "uniques": [
@@ -1074,7 +1147,8 @@
                 "row": 18,
                 "prerequisites": [
                     "Improved Robotics",
-                    "Improved Lasers"
+                    "Improved Lasers",
+                    "Stealth"
                 ],
                 "uniques": [
                     "[+20]% Strength <for [Air] units>"
@@ -1098,7 +1172,8 @@
                     "Improved Particle Physics",
                     "Improved Nuclear Fusion",
                     "Improved Nanotechnology",
-                    "Improved Stealth"
+                    "Improved Stealth",
+                    "Future Tech"
                 ],
                 "uniques": [
                     "[+5 Science] from [Mountain] tiles [in all cities]"
