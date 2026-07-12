@@ -76,7 +76,7 @@
     },
     {
         "columnNumber": 3,
-        "era": "Ancient era",
+        "era": "Classical era",
         "techCost": 55,
         "buildingCost": 75,
         "wonderCost": 185,
@@ -219,7 +219,7 @@
     },
     {
         "columnNumber": 5,
-        "era": "Classical era",
+        "era": "Medieval era",
         "techCost": 175,
         "buildingCost": 100,
         "wonderCost": 250,
@@ -342,7 +342,7 @@
     },
     {
         "columnNumber": 7,
-        "era": "Medieval era",
+        "era": "Renaissance era",
         "techCost": 485,
         "buildingCost": 160,
         "wonderCost": 400,
@@ -491,7 +491,7 @@
     },
     {
         "columnNumber": 9,
-        "era": "Renaissance era",
+        "era": "Industrial era",
         "techCost": 1150,
         "buildingCost": 250,
         "wonderCost": 625,
@@ -637,7 +637,7 @@
     },
     {
         "columnNumber": 11,
-        "era": "Industrial era",
+        "era": "Modern era",
         "techCost": 2350,
         "buildingCost": 360,
         "wonderCost": 900,
@@ -761,7 +761,7 @@
     },
     {
         "columnNumber": 13,
-        "era": "Modern era",
+        "era": "Atomic era",
         "techCost": 4100,
         "buildingCost": 500,
         "wonderCost": 1250,
@@ -873,7 +873,7 @@
     },
     {
         "columnNumber": 15,
-        "era": "Atomic era",
+        "era": "Information era",
         "techCost": 6400,
         "buildingCost": 500,
         "wonderCost": 1250,
@@ -1007,7 +1007,7 @@
     },
     {
         "columnNumber": 17,
-        "era": "Information era",
+        "era": "Future era",
         "techCost": 8800,
         "buildingCost": 750,
         "wonderCost": 1250,
