@@ -233,7 +233,7 @@
                 ],
                 "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates",
                 "uniques": [
-                    "[+1 Science] from [Great Scientist] improvements [in all cities]"
+                    "[+1 Science] from [Mountain] tiles [in all cities]"
                 ]
             },
             {
@@ -255,7 +255,7 @@
                 ],
                 "uniques": [
                     "[+1 Gold] from [Trading post] tiles [in this city]",
-                    "[+1 Gold] from [Customs House] improvements [in all cities]"
+                    "[+1 Gold] from [Trading post] tiles [in all cities]"
                 ],
                 "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
             },
@@ -410,7 +410,7 @@
                 ],
                 "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei",
                 "uniques": [
-                    "[+1 Science] from [Mountain] tiles [in all cities] [in all cities]",
+                    "[+1 Science] from [Mountain] tiles [in all cities]",
                     "[+1 Science] from [Mine] tiles [in all cities]"
                 ]
             },
@@ -525,7 +525,7 @@
                 ],
                 "quote": "'Architecture begins where engineering ends.' - Walter Gropius",
                 "uniques": [
-                    "[+2 Production] from [Mine]tiles [in all cities]"
+                    "[+2 Production] from [Mine] tiles [in all cities]"
                 ]
             },
             {
@@ -603,7 +603,7 @@
                     "Improved Economics"
                 ],
                 "uniques": [
-                    "[+2 Production] from [Mine]tiles [in all cities]"
+                    "[+2 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
             },
@@ -670,7 +670,7 @@
                     "Improved Scientific Theory"
                 ],
                 "uniques": [
-                    "[+2 Production] from [Mine]tiles [in all cities]"
+                    "[+2 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
             },
@@ -678,7 +678,7 @@
                 "name": "Improved Steam Power",
                 "row": 16,
                 "uniques": [
-                    "[+2 Production] from [Mine]tiles [in all cities]"
+                    "[+2 Production] from [Mine] tiles [in all cities]"
                 ],
                 "prerequisites": [
                     "Improved Industrialization",
@@ -739,7 +739,7 @@
                     "Improved Steam Power"
                 ],
                 "uniques": [
-                    "[+3 Production] from [Mine]tiles [in all cities]"
+                    "[+3 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
             },
@@ -762,7 +762,7 @@
                     "Improved Dynamite"
                 ],
                 "uniques": [
-                    "[+3 Production] from [Mine]tiles [in all cities]"
+                    "[+3 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
             }
@@ -783,7 +783,7 @@
                     "Improved Replaceable Parts"
                 ],
                 "uniques": [
-                    "[+3 Production] from [Mine]tiles [in all cities]"
+                    "[+3 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
             },
@@ -817,7 +817,7 @@
                     "Improved Railroads"
                 ],
                 "uniques": [
-                    "[+3 Production] from [Mine]tiles [in all cities]"
+                    "[+3 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             }
@@ -998,7 +998,7 @@
                 ],
                 "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov",
                 "uniques": [
-                    "[+4 Production] from [Mine]tiles [in all cities]"
+                    "[+4 Production] from [Mine] tiles [in all cities]"
                 ]
             },
             {
@@ -1042,7 +1042,7 @@
                 ],
                 "quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton",
                 "uniques": [
-                    "[+4 Science] from [Academy] tiles"
+                    "[+4 Science] from [Mountain] tiles [in all cities]"
                 ]
             },
             {
@@ -1054,7 +1054,7 @@
                     "Improved Robotics"
                 ],
                 "uniques": [
-                    "[+4 Production] from [Mine]tiles [in all cities]"
+                    "[+4 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
             },
@@ -1066,7 +1066,7 @@
                 ],
                 "quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz",
                 "uniques": [
-                    "[+4 Science] from [Academy] tiles"
+                    "[+4 Science] from [Mountain] tiles [in all cities]"
                 ]
             },
             {
@@ -1139,7 +1139,7 @@
                     "Future Tech"
                 ],
                 "uniques": [
-                    "[+5 Production] from [Mine]tiles [in all cities]"
+                    "[+5 Production] from [Mine] tiles [in all cities]"
                 ],
                 "quote": "The wealth of worlds lies in the ruins of the old."
             }
@@ -1193,7 +1193,7 @@
                     "Improved Future Tech"
                 ],
                 "uniques": [
-                    "[+5 Production] from [Mine]tiles [in all cities]",
+                    "[+5 Production] from [Mine] tiles [in all cities]",
                     "[+5 Science] from [Mountain] tiles [in all cities]"
                 ],
                 "quote": "The improved future branch turns possibility into mastery."
