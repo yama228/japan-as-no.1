@@ -1136,8 +1136,30 @@
             }
         ]
     },
+    {   "columnNumber": 19,
+        "era": "Future era",
+        "techCost": 12500,
+        "buildingCost": 800,
+        "wonderCost": 1450,
+        "techs": [
+            {
+                "name": "Future Quantum Computing",
+                "row": 5,
+                "prerequisites": [
+                    "Future Hyperdrive",
+                    "Future Asteroid Mining",
+                    "Future Singularity"
+                ],
+                "uniques": [
+                    "[+2 Science] from [University] buildings [in this city]"
+                ],
+                "quote": "Quantum computation turns possibility into reality."
+            }
+        ]
+    },
+    
     {
-        "columnNumber": 19,
+        "columnNumber": 21,
         "era": "Future era",
         "techCost": 13500,
         "buildingCost": 800,
