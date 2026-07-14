@@ -178,8 +178,7 @@
     "techRequired": "Engineering",
     "uniques": [
         "Can be built outside your borders",
-        "Gives a defensive bonus of [75]%",
-        "[+1 Sight]"
+        "Gives a defensive bonus of [75]%"
     ],
     "shortcutKey": "O"
 }
