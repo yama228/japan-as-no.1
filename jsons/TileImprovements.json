@@ -1,94 +1,186 @@
 [
-    {
-        "name": "Harbor Development",
-        "terrainsCanBeBuiltOn": [
-            "Coast",
-            "Ocean"
-        ],
-        "turnsToBuild": 8,
-        "techRequired": "Optics",
-        "food": 1,
-        "production": 1,
-        "gold": 2
-    },
-    {
-        "name": "Industrial Harbor",
-        "terrainsCanBeBuiltOn": [
-            "Coast",
-            "Ocean"
-        ],
-        "turnsToBuild": 10,
-        "techRequired": "Industrialization",
-        "food": 2,
-        "production": 2,
-        "gold": 3
-    },
-    {
-        "name": "Kokudaka Rice Paddy",
-        "terrainsCanBeBuiltOn": [
-            "Grassland",
-            "Plains"
-        ],
-        "turnsToBuild": 6,
-        "techRequired": "Improved Animal Husbandry",
-        "food": 2,
-        "production": 1
-    },
-    {
-        "name": "Mountain Quarry",
-        "terrainsCanBeBuiltOn": [
-            "Hill",
-            "Mountain"
-        ],
-        "turnsToBuild": 7,
-        "techRequired": "Improved Mining",
-        "production": 2,
-        "gold": 1
-    },
-    {
-        "name": "Sailmakers Marina",
-        "terrainsCanBeBuiltOn": [
-            "Coast",
-            "Ocean"
-        ],
-        "turnsToBuild": 7,
-        "techRequired": "Improved Sailing",
-        "food": 1,
-        "gold": 2
-    },
-    {
-        "name": "Scribe Garden",
-        "terrainsCanBeBuiltOn": [
-            "Grassland",
-            "Plains"
-        ],
-        "turnsToBuild": 6,
-        "techRequired": "Improved Writing",
-        "science": 1,
-        "culture": 1
-    },
-    {
-        "name": "Masonry Terrace",
-        "terrainsCanBeBuiltOn": [
-            "Hill",
-            "Grassland",
-            "Plains"
-        ],
-        "turnsToBuild": 7,
-        "techRequired": "Improved Masonry",
-        "production": 1,
-        "culture": 1
-    },
-    {
-        "name": "Imperial Observatory Site",
-        "terrainsCanBeBuiltOn": [
-            "Hill",
-            "Grassland",
-            "Plains"
-        ],
-        "turnsToBuild": 8,
-        "techRequired": "Improved Physics",
-        "science": 2,
-        "culture": 1
-    }
+{
+    "name": "Rice Paddy",
+    "replaces": "Farm",
+    "uniqueTo": "Japan",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+    "food": 2,
+    "production": 1,
+    "turnsToBuild": 7,
+    "techRequired": "Agriculture",
+    "uniques": [
+        "Can also be built on tiles adjacent to fresh water",
+        "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+        "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+        "Pillaging this improvement yields approximately [+18 Gold]"
+    ],
+    "shortcutKey": "F"
+},
+{
+    "name": "Forestry Complex",
+    "replaces": "Lumber mill",
+    "uniqueTo": "Japan",
+    "terrainsCanBeBuiltOn": ["Forest"],
+    "production": 2,
+    "science": 1,
+    "turnsToBuild": 7,
+    "techRequired": "Construction",
+    "uniques": [
+        "[+1 Production] <after discovering [Scientific Theory]>",
+        "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "L"
+},
+{
+    "name": "Precision Mine",
+    "replaces": "Mine",
+    "uniqueTo": "Japan",
+    "terrainsCanBeBuiltOn": ["Hill"],
+    "production": 2,
+    "gold": 1,
+    "turnsToBuild": 7,
+    "techRequired": "Mining",
+    "uniques": [
+        "[+1 Production] <after discovering [Chemistry]>",
+        "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "M"
+},
+{
+    "name": "Sogo Trading Hub",
+    "replaces": "Trading post",
+    "uniqueTo": "Japan",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+    "gold": 2,
+    "science": 1,
+    "turnsToBuild": 7,
+    "techRequired": "Guilds",
+    "uniques": [
+        "[+1 Gold] <after discovering [Economics]>",
+        "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "T"
+},
+{
+    "name": "Managed Hunting Grounds",
+    "replaces": "Camp",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 7,
+    "techRequired": "Trapping",
+    "food": 1,
+    "culture": 1,
+    "uniques": [
+        "Does not need removal of [Forest]",
+        "Does not need removal of [Jungle]",
+        "[+1 Gold] <after discovering [Economics]>",
+        "Can only be built to improve a resource",
+        "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "C"
+},
+{
+    "name": "Advanced Oil Well",
+    "replaces": "Oil well",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 9,
+    "techRequired": "Biology",
+    "production": 1,
+    "gold": 2,
+    "uniques": [
+        "Can only be built to improve a resource",
+        "Cannot be built on [Water] tiles",
+        "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "W"
+},
+{
+    "name": "Offshore Energy Platform",
+    "replaces": "Offshore Platform",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 1,
+    "techRequired": "Refrigeration",
+    "production": 2,
+    "science": 1,
+    "uniques": [
+        "Can only be built to improve a resource",
+        "Can only be built on [Water] tiles",
+        "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "P"
+},
+{
+    "name": "Modern Ranch",
+    "replaces": "Pasture",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 8,
+    "techRequired": "Animal Husbandry",
+    "food": 2,
+    "production": 1,
+    "uniques": [
+        "[+1 Food] <after discovering [Fertilizer]>",
+        "Can only be built to improve a resource",
+        "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "P"
+},
+{
+    "name": "Smart Plantation",
+    "replaces": "Plantation",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 6,
+    "food": 2,
+    "gold": 2,
+    "techRequired": "Calendar",
+    "uniques": [
+        "[+1 Food] <after discovering [Fertilizer]>",
+        "Can only be built to improve a resource",
+        "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "P"
+},
+{
+    "name": "Precision Quarry",
+    "replaces": "Quarry",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 8,
+    "techRequired": "Masonry",
+    "production": 2,
+    "culture": 1,
+    "uniques": [
+        "[+1 Production] <after discovering [Chemistry]>",
+        "Can only be built to improve a resource",
+        "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "Q"
+},
+{
+    "name": "Deep Sea Fishery",
+    "replaces": "Fishing Boats",
+    "uniqueTo": "Japan",
+    "turnsToBuild": 1,
+    "terrainsCanBeBuiltOn": ["Coast"],
+    "food": 2,
+    "gold": 2,
+    "techRequired": "Sailing",
+    "uniques": [
+        "[+1 Gold] <after discovering [Compass]>",
+        "Can only be built to improve a resource",
+        "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "F"
+},
+{
+    "name": "JSDF Base",
+    "replaces": "Fort",
+    "uniqueTo": "Japan",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+    "turnsToBuild": 6,
+    "techRequired": "Engineering",
+    "uniques": [
+        "Can be built outside your borders",
+        "Gives a defensive bonus of [75]%",
+        "[+1 Sight]"
+    ],
+    "shortcutKey": "O"
+}
 ]
