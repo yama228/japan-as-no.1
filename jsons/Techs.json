@@ -1264,7 +1264,8 @@
                     "Future Quantum Computing"
                 ],
                 "uniques": [
-                    "[+5 Gold] from [Trading post] tiles [in all cities]"
+                    "[+5 Gold] from [Trading post] tiles [in all cities]",
+                    "Can be continually researched"
                 ],
                 "quote": "A new horizon opens for those who outlast the old age."
             },
@@ -1277,7 +1278,8 @@
                 ],
                 "uniques": [
                     "[+5 Production] from [Mine] tiles [in all cities]",
-                    "[+5 Science] from [Mountain] tiles [in all cities]"
+                    "[+5 Science] from [Mountain] tiles [in all cities]",
+                    "Can be continually researched"
                 ],
                 "quote": "The improved future branch turns possibility into mastery."
             }
