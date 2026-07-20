@@ -189,10 +189,8 @@
 	"Snow+Rice Paddy": ["Snow","FarmS","HutFarmT"],
 	"Snow+Hill+Rice Paddy": ["Snow+Hill","FarmSH","HutFarmT"],
 
-	"Coast+Advanced Oil Well": ["Coast","Oil WellC"],
-	"Coast+Oil+Advanced Oil Well": ["Coast","Oil WellC"],
-
 	"Coast+Oil+Offshore Energy Platform": ["Coast","Offshore Platform"],
+	"Ocean+Oil+Offshore Energy Platform": ["Ocean","Offshore Platform"],
 
 	"Tundra+Academy": ["Tundra","AcademyT"],
 	"Tundra+Deer+Academy": ["Tundra","Deer","AcademyT"],

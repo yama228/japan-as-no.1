@@ -6,7 +6,8 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques":["Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+            "Every [50] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Coast",
