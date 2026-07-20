@@ -1,13 +1,14 @@
 [
 	{
-		"name": "Ocean",
+		"name": "Midsea",
 		"type": "Water",
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
 		"uniques": [
-            "Every [50] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [50] tiles with this terrain will receive a major deposit of a strategic resource.",
+		    "Neighboring tiles except [Coast] will convert to [...]"]
 	},
 	{
 		"name": "Coast",
