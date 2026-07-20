@@ -8,7 +8,7 @@
 		"RGB": [43, 87, 151],
 		"uniques": [
             "Every [50] tiles with this terrain will receive a major deposit of a strategic resource.",
-		    "Neighboring tiles except [Coast] will convert to [...]"]
+		    "Neighboring tiles will convert to [Midsea] <in tiles without [Coast]>"]
 	},
 	{
 		"name": "Coast",
