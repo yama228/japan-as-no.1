@@ -4,7 +4,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Biology",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Ocean","Tundra","Snow","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Coast","Midsea","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
