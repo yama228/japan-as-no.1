@@ -1800,9 +1800,9 @@
     "requiredTech": "Future Quantum Computing",
     "requiredResource": "Aluminum",
     "uniques": [
-        "Indirect Fire",
         "Never appears as a Barbarian unit"
     ],
+	"promotions": ["Indirect Fire"],
     "attackSound": "artillery"
 },
 {
