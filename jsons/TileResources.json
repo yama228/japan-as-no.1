@@ -1,3 +1,17 @@
 [
-
+	{
+		"name": "Titanium",
+		"resourceType": "Strategic",
+		"revealedBy": "Electricity",
+		"terrainsCanBeFoundOn": ["Desert","Hill","Snow"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": [
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	}
 ]
