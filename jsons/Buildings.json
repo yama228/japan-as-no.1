@@ -180,7 +180,66 @@
     "uniques": [
         "[+1 Science]"
     ]
-}
+},
+
+    {
+        "name": "Advanced AI Research Center",
+        "cost": 850,
+        "maintenance": 5,
+        "requiredTech": "Future Singularity",
+        "science": 15,
+        "production": 5,
+        "specialistSlots": {
+            "Scientist": 2
+        },
+        "percentStatBonus": {
+            "science": 20
+        }
+    },
+    {
+        "name": "Autonomous Manufacturing Plant",
+        "cost": 900,
+        "maintenance": 6,
+        "requiredTech": "Future Singularity",
+        "production": 20,
+        "percentStatBonus": {
+            "production": 15
+        }
+    },
+    {
+        "name": "Advanced Spaceport",
+        "cost": 1000,
+        "maintenance": 8,
+        "requiredTech": "Future Hyperdrive",
+        "gold": 15,
+        "production": 10,
+        "percentStatBonus": {
+            "production": 10
+        }
+    },
+    {
+        "name": "Orbital Resource Processing Center",
+        "cost": 950,
+        "maintenance": 7,
+        "requiredTech": "Future Asteroid Mining",
+        "production": 20,
+        "science": 10,
+        "requiredResource": "Aluminum"
+    },
+    {
+        "name": "Quantum Computing Facility",
+        "cost": 1100,
+        "maintenance": 8,
+        "requiredTech": "Future Quantum Computing",
+        "science": 30,
+        "specialistSlots": {
+            "Scientist": 3
+        },
+        "percentStatBonus": {
+            "science": 25
+        }
+    }
+
 
 	
 ]

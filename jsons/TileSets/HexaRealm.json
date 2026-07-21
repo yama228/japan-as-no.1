@@ -190,8 +190,6 @@
 	"Snow+Hill+Rice Paddy": ["Snow+Hill","FarmSH","HutFarmT"],
 
 	"Coast+Oil+Offshore Energy Platform": ["Coast","Offshore Platform"],
-	"Ocean+Oil+Offshore Energy Platform": ["Ocean","Offshore Platform"],
-    "Midsea":["Ocean"],
 
 	"Tundra+Academy": ["Tundra","AcademyT"],
 	"Tundra+Deer+Academy": ["Tundra","Deer","AcademyT"],

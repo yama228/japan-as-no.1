@@ -1716,5 +1716,41 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
 	
-	}
+	},
+    {
+        "name": "Advanced Combat Vehicle",
+        "unitType": "Armored",
+        "cost": 700,
+        "strength": 110,
+        "requiredTech": "Future Singularity",
+        "requiredResource": "Iron",
+        "uniques": [
+            "Consumes [2] [Aluminum]",
+            "Consumes [1] [Coal]"
+        ]
+    },
+	{
+    "name": "Hypersonic Aircraft",
+    "unitType": "Bomber",
+    "cost": 900,
+    "movement": 12,
+    "strength": 150,
+    "requiredTech": "Future Hyperdrive",
+    "requiredResource": "Aluminum",
+    "uniques": [
+        "Consumes [2] [Titanium]",
+        "Consumes [1] [Iron]"
+    ]
+    },
+	{
+    "name": "Orbital Construction Vehicle",
+    "unitType": "Civilian",
+    "cost": 1000,
+    "requiredTech": "Future Asteroid Mining",
+    "requiredResource": "Iron",
+    "uniques": [
+        "Consumes [2] [Aluminum]",
+        "Consumes [2] [Coal]"
+    ]
+    }
 ]
