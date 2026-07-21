@@ -19,12 +19,12 @@
         "uniqueName": "Bushido",
         "uniques": [
             "No damage penalty for wounded units <for [All] units>",
-            "[+1 Production] from every [Mine]",
+            "[+2 Production] from every [Mine]",
             "[+2 Happiness] from every [Fish]",
-            "[+3 Culture] per [4] population [in all cities]",
-            "[+60]% [Science] [in all cities]",
+            "[+2 Culture] per [4] population [in all cities]",
+            "[+50]% [Science] [in all cities]",
             "[+1 Science] from every [Factory]",
-            "[+2 Food] per [3] population [in all cities]",
+            "[+3 Food] per [5] population [in all cities]",
             "Starts with [Only japanese techs]"
         ],
         "cities": [
