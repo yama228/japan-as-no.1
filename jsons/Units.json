@@ -1717,40 +1717,110 @@
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
 	
 	},
-    {
-        "name": "Advanced Combat Vehicle",
-        "unitType": "Armored",
-        "cost": 700,
-        "strength": 110,
-        "requiredTech": "Future Singularity",
-        "requiredResource": "Iron",
-        "uniques": [
-            "Consumes [2] [Aluminum]",
-            "Consumes [1] [Coal]"
-        ]
-    },
-	{
-    "name": "Hypersonic Aircraft",
-    "unitType": "Bomber",
-    "cost": 900,
+{
+    "name": "Autonomous Combat Vehicle",
+    "unitType": "Armored",
     "movement": 12,
     "strength": 150,
+    "cost": 650,
+    "requiredTech": "Future Singularity",
+    "requiredResource": "Iron",
+    "upgradesTo": "Giant Death Robot",
+    "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "tankshot"
+},
+{
+    "name": "Autonomous Infantry",
+    "unitType": "Gunpowder",
+    "movement": 8,
+    "strength": 130,
+    "cost": 550,
+    "requiredTech": "Future Singularity",
+    "requiredResource": "Aluminum",
+    "uniques": [
+        "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "shot"
+},
+{
+    "name": "Hypersonic Strike Aircraft",
+    "unitType": "Bomber",
+    "movement": 6,
+    "strength": 120,
+    "rangedStrength": 130,
+    "range": 25,
+    "cost": 750,
     "requiredTech": "Future Hyperdrive",
     "requiredResource": "Aluminum",
     "uniques": [
-        "Consumes [2] [Titanium]",
-        "Consumes [1] [Iron]"
-    ]
-    },
-	{
-    "name": "Orbital Construction Vehicle",
-    "unitType": "Civilian",
-    "cost": 1000,
-    "requiredTech": "Future Asteroid Mining",
+        "Damage taken from interception reduced by [75]%",
+        "[+4] Sight",
+        "Can see over obstacles"
+    ],
+    "attackSound": "bombing"
+},
+{
+    "name": "Advanced Carrier",
+    "unitType": "Aircraft Carrier",
+    "movement": 12,
+    "strength": 120,
+    "cost": 800,
+    "requiredTech": "Future Hyperdrive",
     "requiredResource": "Iron",
     "uniques": [
-        "Consumes [2] [Aluminum]",
-        "Consumes [2] [Coal]"
+        "Can carry [5] [Fighter] units",
+        "Can carry [3] [Bomber] units",
+        "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "shipguns"
+},
+{
+    "name": "Orbital Mining Vessel",
+    "unitType": "Civilian Water",
+    "movement": 10,
+    "cost": 700,
+    "requiredTech": "Future Asteroid Mining",
+    "requiredResource": "Aluminum",
+    "uniques": [
+        "Never appears as a Barbarian unit"
     ]
-    }
+},
+{
+    "name": "Quantum Electronic Warfare Unit",
+    "unitType": "Siege",
+    "movement": 5,
+    "strength": 80,
+    "rangedStrength": 160,
+    "range": 4,
+    "cost": 700,
+    "requiredTech": "Future Quantum Computing",
+    "requiredResource": "Aluminum",
+    "uniques": [
+        "Indirect Fire",
+        "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "artillery"
+},
+{
+    "name": "Autonomous Missile Cruiser",
+    "unitType": "Ranged Water",
+    "movement": 16,
+    "strength": 120,
+    "rangedStrength": 160,
+    "range": 4,
+    "cost": 850,
+    "requiredTech": "Future Quantum Computing",
+    "requiredResource": "Iron",
+    "uniques": [
+        "Can see invisible [Submarine] units",
+        "Can carry [5] [Missile] units",
+        "[100]% chance to intercept air attacks",
+        "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "shipguns"
+}
 ]
