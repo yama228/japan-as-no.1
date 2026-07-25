@@ -8,12 +8,9 @@
         "techs": [
             {
                 "name": "Only japanese techs",
-                "cost": 9999999,
+                "cost": 99999999,
                 "row": 12,
-                "quote": "The Japanese are a people of great ingenuity and skill, and their technological advancements have been a driving force in their history.",
-                "uniques": [
-                    "[+1 Science]"
-                ]
+                "quote": "The Japanese are a people of great ingenuity and skill, and their technological advancements have been a driving force in their history."
             }
         ]
     },
