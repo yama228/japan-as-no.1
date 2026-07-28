@@ -19,7 +19,7 @@
 
     "uniques": [
         "[+1 Food] from [Farm] tiles [in this city]",
-        "[+2 Production] from [Mine] tiles [in this city]",
+        "[+4 Production] from [Mine] tiles [in this city]",
         "[+2 Science]",
         "[+1 Happiness]",
         "[+1 Production] from [Coal] tiles [in this city]"
@@ -55,7 +55,7 @@
     "culture": 1,
     "uniques": [
         "[+20]% Production when constructing [Land] units [in this city]",
-        "[+3 Production] from [Iron] tiles [in this city]"
+        "[+5 Production] from [Iron] tiles [in this city]"
     ]
     },
     {
@@ -70,7 +70,7 @@
     "maintenance": 0,
     "requiredTech": "Currency",
     "uniques": [
-        "[+1 Science]"
+        "[+2 Science]"
     ]
 },
 {
@@ -95,7 +95,7 @@
     "replaces": "Research Lab",
     "uniqueTo": "Japan",
     "cost": 500,
-    "science": 6,
+    "science": 9,
      "percentStatBonus": {
         "science": 70
     },
@@ -105,7 +105,7 @@
         "Scientist": 2
     },
     "uniques": [
-        "[+1 Production]",
+        "[+3 Production]",
         "[+1 Happiness]"
     ]
 },
@@ -113,7 +113,7 @@
     "name": "Village Kiln",
     "uniqueTo": "Japan",
     "cost": 160,
-    "food": 1,
+    "food": 2,
     "production": 1,
     "requiredTech": "Improved Pottery",
     "uniques": [
@@ -150,7 +150,7 @@
     "name": "Sailmakers Wharf",
     "uniqueTo": "Japan",
     "cost": 250,
-    "gold": 2,
+    "gold": 3,
     "culture": 1,
     "maintenance": 1,
     "requiredTech": "Improved Sailing",
@@ -162,7 +162,7 @@
     "name": "Agricultural Office",
     "uniqueTo": "Japan",
     "cost": 250,
-    "food": 2,
+    "food": 3,
     "production": 1,
     "maintenance": 1,
     "requiredTech": "Improved Calendar",
@@ -174,7 +174,7 @@
     "name": "Scribe Hall",
     "uniqueTo": "Japan",
     "cost": 280,
-    "science": 2,
+    "science": 3,
     "culture": 1,
     "maintenance": 1,
     "requiredTech": "Improved Writing",
@@ -186,7 +186,7 @@
     "name": "Hunters Lodge",
     "uniqueTo": "Japan",
     "cost": 280,
-    "food": 2,
+    "food": 3,
     "production": 1,
     "maintenance": 1,
     "requiredTech": "Improved Trapping",
@@ -198,31 +198,31 @@
     "name": "Road Administration Office",
     "uniqueTo": "Japan",
     "cost": 320,
-    "production": 2,
+    "production": 3,
     "culture": 1,
     "maintenance": 1,
     "requiredTech": "Improved The Wheel",
     "uniques": [
-        "[+1 Production]"
+        "[+2 Production]"
     ]
 },
 {
     "name": "Masonry Guild Hall",
     "uniqueTo": "Japan",
     "cost": 320,
-    "production": 2,
+    "production": 3,
     "culture": 1,
     "maintenance": 1,
     "requiredTech": "Improved Masonry",
     "uniques": [
-        "[+1 Production]"
+        "[+2 Production]"
     ]
 },
 {
     "name": "Bronze Foundry",
     "uniqueTo": "Japan",
     "cost": 350,
-    "production": 2,
+    "production": 4,
     "maintenance": 2,
     "requiredTech": "Improved Bronze Working",
     "uniques": [
@@ -233,8 +233,8 @@
     "name": "Imperial Observatory",
     "uniqueTo": "Japan",
     "cost": 450,
-    "science": 3,
-    "production": 1,
+    "science": 4,
+    "production": 2,
     "maintenance": 2,
     "requiredTech": "Improved Physics",
     "uniques": [
@@ -246,7 +246,7 @@
     "uniqueTo": "Japan",
     "cost": 340,
     "gold": 2,
-    "science": 1,
+    "science": 2,
     "maintenance": 1,
     "requiredTech": "Improved Optics",
     "uniques": [
@@ -257,20 +257,20 @@
     "name": "Cavalry Dojo",
     "uniqueTo": "Japan",
     "cost": 360,
-    "production": 2,
+    "production": 3,
     "culture": 1,
-    "maintenance": 1,
+    "maintenance": 2,
     "requiredTech": "Improved Horseback Riding",
     "uniques": [
-        "[+15]% Strength <for [Mounted] units>"
+        "[+25]% Strength <for [Mounted] units>"
     ]
 },
 {
     "name": "Accounting Office",
     "uniqueTo": "Japan",
     "cost": 360,
-    "gold": 2,
-    "science": 1,
+    "gold": 3,
+    "science": 2,
     "maintenance": 1,
     "requiredTech": "Improved Mathematics",
     "uniques": [
@@ -282,18 +282,18 @@
     "uniqueTo": "Japan",
     "cost": 380,
     "production": 3,
-    "maintenance": 1,
+    "maintenance": 2,
     "requiredTech": "Improved Construction",
     "uniques": [
-        "[+1 Production] from [Lumber mill] tiles [in this city]"
+        "[+3 Production] from [Lumber mill] tiles [in this city]"
     ]
 },
     {
         "name": "Advanced AI Research Center",
-        "cost": 850,
+        "cost": 950,
         "maintenance": 5,
         "requiredTech": "Future Singularity",
-        "science": 15,
+        "science": 25,
         "production": 5,
         "specialistSlots": {
             "Scientist": 2
@@ -304,40 +304,40 @@
     },
     {
         "name": "Autonomous Manufacturing Plant",
-        "cost": 900,
-        "maintenance": 6,
+        "cost": 1100,
+        "maintenance": 5,
         "requiredTech": "Future Singularity",
-        "production": 20,
+        "production": 27,
         "percentStatBonus": {
             "production": 15
         }
     },
     {
         "name": "Advanced Spaceport",
-        "cost": 1000,
+        "cost": 1400,
         "maintenance": 8,
         "requiredTech": "Future Hyperdrive",
-        "gold": 15,
-        "production": 10,
+        "gold": 32,
+        "production": 20,
         "percentStatBonus": {
             "production": 10
         }
     },
     {
         "name": "Orbital Resource Processing Center",
-        "cost": 950,
-        "maintenance": 7,
+        "cost": 1700,
+        "maintenance": 10,
         "requiredTech": "Future Asteroid Mining",
-        "production": 20,
-        "science": 10,
+        "production": 30,
+        "science": 23,
         "requiredResource": "Aluminum"
     },
     {
         "name": "Quantum Computing Facility",
-        "cost": 1100,
-        "maintenance": 8,
+        "cost": 1900,
+        "maintenance": 14,
         "requiredTech": "Future Quantum Computing",
-        "science": 30,
+        "science": 60,
         "specialistSlots": {
             "Scientist": 3
         },
