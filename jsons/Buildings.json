@@ -117,7 +117,7 @@
     "production": 1,
     "requiredTech": "Improved Pottery",
     "uniques": [
-        "[+1 Happiness]"
+        "[+2 Happiness]"
     ]
 },
 
@@ -131,6 +131,7 @@
     "requiredTech": "Improved Animal Husbandry",
     "uniques": [
         "[+1 Food] from [Farm] tiles [in this city]"
+		"[+1 Happiness]"
     ]
 },
 {
@@ -142,7 +143,7 @@
     "maintenance": 1,
     "requiredTech": "Improved Mining",
     "uniques": [
-        "[+1 Production] from [Mine] tiles [in this city]"
+        "[+2 Production] from [Mine] tiles [in this city]"
     ]
 },
 {
@@ -154,7 +155,7 @@
     "maintenance": 1,
     "requiredTech": "Improved Sailing",
     "uniques": [
-        "[+1 Gold] from [Coast] tiles [in this city]"
+        "[+2 Gold] from [Coast] tiles [in this city]"
     ]
 },
 {
@@ -166,7 +167,7 @@
     "maintenance": 1,
     "requiredTech": "Improved Calendar",
     "uniques": [
-        "[+1 Food] from [Farm] tiles [in this city]"
+        "[+2 Food] from [Farm] tiles [in this city]"
     ]
 },
 {
@@ -178,7 +179,7 @@
     "maintenance": 1,
     "requiredTech": "Improved Writing",
     "uniques": [
-        "[+1 Science]"
+        "[+2 Science]"
     ]
 },
 {
@@ -240,7 +241,53 @@
         "[+1 Science]"
     ]
 },
-
+{
+    "name": "Coastal Lighthouse",
+    "uniqueTo": "Japan",
+    "cost": 340,
+    "gold": 2,
+    "science": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Optics",
+    "uniques": [
+        "[+1 Gold] from [Coast] tiles [in this city]"
+    ]
+},
+{
+    "name": "Cavalry Dojo",
+    "uniqueTo": "Japan",
+    "cost": 360,
+    "production": 2,
+    "culture": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Horseback Riding",
+    "uniques": [
+        "[+15]% Strength <for [Mounted] units>"
+    ]
+},
+{
+    "name": "Accounting Office",
+    "uniqueTo": "Japan",
+    "cost": 360,
+    "gold": 2,
+    "science": 1,
+    "maintenance": 1,
+    "requiredTech": "Improved Mathematics",
+    "uniques": [
+        "[+1 Gold] from [Trading post] tiles [in this city]"
+    ]
+},
+{
+    "name": "Carpenters Guild Hall",
+    "uniqueTo": "Japan",
+    "cost": 380,
+    "production": 3,
+    "maintenance": 1,
+    "requiredTech": "Improved Construction",
+    "uniques": [
+        "[+1 Production] from [Lumber mill] tiles [in this city]"
+    ]
+},
     {
         "name": "Advanced AI Research Center",
         "cost": 850,
