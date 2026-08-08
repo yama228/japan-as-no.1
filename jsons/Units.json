@@ -1725,7 +1725,6 @@
     "cost": 650,
     "requiredTech": "Future Singularity",
     "requiredResource": "Iron",
-    "upgradesTo": "Giant Death Robot",
     "uniques": [
         "Can move after attacking",
         "No defensive terrain bonus",
@@ -1740,7 +1739,7 @@
     "strength": 130,
     "cost": 550,
     "requiredTech": "Future Singularity",
-    "requiredResource": "Aluminum",
+    "requiredResource": "Coal",
     "uniques": [
         "Never appears as a Barbarian unit"
     ],
@@ -1755,7 +1754,7 @@
     "range": 25,
     "cost": 750,
     "requiredTech": "Future Hyperdrive",
-    "requiredResource": "Aluminum",
+    "requiredResource": "Titanium",
     "uniques": [
         "Damage taken from interception reduced by [75]%",
         "[+4] Sight",
