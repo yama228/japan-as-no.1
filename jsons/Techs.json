@@ -1263,6 +1263,7 @@
                     "[+5 Production] from [Mine] tiles [in all cities]",
                     "[+5 Science] from [Mountain] tiles [in all cities]",
 					"[+1 Food] from [Farm] tiles [in all cities]",
+					"[+1 Hapiness] from [Mountain] tiles [in all cities]"
                     "Can be continually researched"
                 ],
                 "quote": "The improved future branch turns possibility into mastery."
