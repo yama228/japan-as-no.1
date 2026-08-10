@@ -1758,9 +1758,24 @@
     "uniques": [
         "Damage taken from interception reduced by [75]%",
         "[+4] Sight",
-        "Can see over obstacles"
+        "Can see over obstacles",
+		"Destroys tile improvements when attacking"
     ],
     "attackSound": "bombing"
+},
+{
+	"name": "Advanced Jet Fighter",
+	"unitType": "Fighter",
+	"movement": 4,
+	"strength": 140,
+	"rangedStrength": 150,
+	"range": 15,
+	"interceptRange": 15,
+	"cost": 775,
+	"requiredTech": "Future Hyperdrive",
+	"requiredResource": "Oil",
+	"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Missile] units>"],
+	"attackSound": "jetgun"
 },
 {
     "name": "Advanced Carrier",
