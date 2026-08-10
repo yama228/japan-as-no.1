@@ -344,6 +344,20 @@
         "percentStatBonus": {
             "science": 25
         }
+    },
+    {
+        "name": "Improved Integrated Plant Factory",
+        "cost": 2500,
+        "maintenance": 50,
+        "requiredTech": "Future Quantum Computing",
+        "Food": 60,
+        "percentStatBonus": {
+            "science": 25
+        },
+		"uniques": [
+        "[+2 Happiness] from [Farm] tiles [in this city]",
+		"[+4 Food] from [Farm] tiles [in this city]"
+        ]
     }
 
 
