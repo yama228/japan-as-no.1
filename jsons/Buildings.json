@@ -358,8 +358,23 @@
         "[+2 Happiness] from [Farm] tiles [in this city]",
 		"[+4 Food] from [Farm] tiles [in this city]"
         ]
+	},
+    {
+        "name": "Improved Hyper Factory",
+        "cost": 9000,
+        "maintenance": 500,
+        "requiredTech": "Future Quantum Computing",
+        "production": 120,
+        "percentStatBonus": {
+            "science": 25
+        },
+		"uniques": [
+        "[+2 Happiness] from [Mine] tiles [in this city]",
+		"[+20 Production] from [Mine] tiles [in this city]",
+		"[+5 Production] per [1] population [in this city]",
+		"[+50]% Strength <for [All] units>"
+        ]
     }
-
 
 	
 ]
