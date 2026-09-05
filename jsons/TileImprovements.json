@@ -17,6 +17,21 @@
     "shortcutKey": "F"
 },
 {
+    "name": "Town",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+    "food": 25,
+    "production": 51,
+    "turnsToBuild": 18,
+    "techRequired": "Future era branch",
+    "uniques": [
+        "Can also be built on tiles adjacent to fresh water",
+        "[+3 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+        "[+3 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+        "Pillaging this improvement yields approximately [+90 Gold]"
+    ],
+    "shortcutKey": "F"
+},
+{
     "name": "Forestry Complex",
     "replaces": "Lumber mill",
     "uniqueTo": "Japan",
